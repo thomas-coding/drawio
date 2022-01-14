@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T06:39:29.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="jRQ7QAAVfC-lL0VdFXOE" version="16.2.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-14T06:51:41.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="8WR3RRU6RrjGXndoIffZ" version="16.2.4" type="github" pages="3">
   <diagram id="nvh7tYfEL4DqA_WDEGY_" name="a15">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -997,6 +997,48 @@
         </mxCell>
         <mxCell id="VHJCXaAk8W6C1qhDL18c-177" value="写，如果命中，看写策略，如果是直写，则同时写入cache和memory，否则只写cache，并标识dirty" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
           <mxGeometry x="-540" y="7130" width="1020" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-178" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" edge="1" source="VHJCXaAk8W6C1qhDL18c-180" target="VHJCXaAk8W6C1qhDL18c-185" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-179" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" edge="1" source="VHJCXaAk8W6C1qhDL18c-180" target="VHJCXaAk8W6C1qhDL18c-182" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-180" value="write buffer" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-330" y="7455" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-181" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="140" y="7255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-182" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="140" y="7315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-183" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="140" y="7375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-184" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="480" y="7396" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-185" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="480" y="7456" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-186" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="480" y="7516" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-187" value="cache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="140" y="7200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-188" value="memory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="470" y="7361" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-191" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" edge="1" parent="RNmGIZCbpkAgwTGCPnIk-1" source="VHJCXaAk8W6C1qhDL18c-190" target="VHJCXaAk8W6C1qhDL18c-180">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-190" value="core" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-560" y="7456" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-192" value="实际上，core边上还有一个write buffer，core把数据写到write buffer后，可以继续执行下一条指令，而不需要等待" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-550" y="7620" width="1160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
