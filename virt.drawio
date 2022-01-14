@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T06:51:41.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="8WR3RRU6RrjGXndoIffZ" version="16.2.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-14T07:48:35.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="XALdWjU-AIVDHaY9vDaB" version="16.2.4" type="github" pages="3">
   <diagram id="nvh7tYfEL4DqA_WDEGY_" name="a15">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -196,7 +196,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hoF-UVE1Jc-9Tj3M88HP" name="cache">
-    <mxGraphModel dx="2500" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2500" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="RNmGIZCbpkAgwTGCPnIk-0" />
         <mxCell id="RNmGIZCbpkAgwTGCPnIk-1" parent="RNmGIZCbpkAgwTGCPnIk-0" />
@@ -1039,6 +1039,24 @@
         </mxCell>
         <mxCell id="VHJCXaAk8W6C1qhDL18c-192" value="实际上，core边上还有一个write buffer，core把数据写到write buffer后，可以继续执行下一条指令，而不需要等待" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
           <mxGeometry x="-550" y="7620" width="1160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-193" value="V" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-527" y="7830" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-197" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" edge="1" parent="RNmGIZCbpkAgwTGCPnIk-1" source="VHJCXaAk8W6C1qhDL18c-194" target="VHJCXaAk8W6C1qhDL18c-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-194" value="TAG" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-474" y="7830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-195" value="DATA Line" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-271" y="7830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-196" value="D" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-151" y="7830" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-198" value="对cache有两种操作：&lt;br&gt;1、invalidate , 把valid bit 置0，标识这个cache line是无效的，look-up时候ignore&lt;br&gt;2、clean，把dirty bit为1的cache line 同步到外部memory，把dirty bit置为0，write-back模式下使用，保证cache和memory数据一致" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-527" y="7930" width="1340" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
