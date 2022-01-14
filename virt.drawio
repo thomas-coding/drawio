@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-14T05:07:56.689Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="ZJD_A-EjjBZmLJFUfGWE" version="16.2.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-14T06:39:29.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="jRQ7QAAVfC-lL0VdFXOE" version="16.2.4" type="github" pages="3">
   <diagram id="nvh7tYfEL4DqA_WDEGY_" name="a15">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -196,7 +196,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hoF-UVE1Jc-9Tj3M88HP" name="cache">
-    <mxGraphModel dx="3197" dy="1177" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2500" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="RNmGIZCbpkAgwTGCPnIk-0" />
         <mxCell id="RNmGIZCbpkAgwTGCPnIk-1" parent="RNmGIZCbpkAgwTGCPnIk-0" />
@@ -898,6 +898,105 @@
         </mxCell>
         <mxCell id="VHJCXaAk8W6C1qhDL18c-142" value="&lt;font style=&quot;font-size: 23px&quot;&gt;使用方式：&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 23px&quot;&gt;&lt;span&gt;1、当core发出访问时，根据 PA[12:5] 确定数据保存在哪个cache line（set），每个way里面都可能有cache数据，因此需要所有way遍历一边&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 23px&quot;&gt;&lt;span&gt;2、遍历所有way上这个cache line对应的TAG，&lt;/span&gt;&lt;span&gt;和 PA[31:13] 比对，一致则cache 命中，再根据 PA[4:2] 找到数据在cache line中位置&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 23px&quot;&gt;3、4way表示每一次看是否命中最多需要比对四次，优点是同一个set，有4个位置可以放&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
           <mxGeometry x="-530" y="5500" width="1440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-144" value="core" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-490" y="5870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-148" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" edge="1" parent="RNmGIZCbpkAgwTGCPnIk-1" source="VHJCXaAk8W6C1qhDL18c-145" target="VHJCXaAk8W6C1qhDL18c-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-145" value="cache" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-4" y="5870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-147" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" edge="1" parent="RNmGIZCbpkAgwTGCPnIk-1" source="VHJCXaAk8W6C1qhDL18c-146" target="VHJCXaAk8W6C1qhDL18c-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-146" value="memory" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="480" y="5870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-149" value="read: if hit, get data from cache, if not hit, get data from memory and fill cache" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-500" y="5970" width="800" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-157" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" edge="1" parent="RNmGIZCbpkAgwTGCPnIk-1" source="VHJCXaAk8W6C1qhDL18c-150" target="VHJCXaAk8W6C1qhDL18c-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-158" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" edge="1" parent="RNmGIZCbpkAgwTGCPnIk-1" source="VHJCXaAk8W6C1qhDL18c-150" target="VHJCXaAk8W6C1qhDL18c-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-150" value="core" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-500" y="6440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-151" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-30" y="6240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-152" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-30" y="6300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-153" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-30" y="6360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-154" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="310" y="6400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-155" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="310" y="6460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-156" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="310" y="6520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-159" value="IF read/write allocate policy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-340" y="6375" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-160" value="cache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-30" y="6185" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-161" value="memory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="300" y="6365" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-162" value="写，如果没有命中，看分配策略，如果是读写都分配，则同时写入cache和memory，否则只写memory" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-527" y="6610" width="1050" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-163" value="cache 策略相关：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-680" y="5780" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-164" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" edge="1" source="VHJCXaAk8W6C1qhDL18c-166" target="VHJCXaAk8W6C1qhDL18c-171" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-165" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=23;" edge="1" source="VHJCXaAk8W6C1qhDL18c-166" target="VHJCXaAk8W6C1qhDL18c-168" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-166" value="core" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-540" y="6955" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-167" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-70" y="6755" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-168" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-70" y="6815" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-169" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-70" y="6875" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-170" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="270" y="6896" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-171" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="270" y="6956" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-172" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="270" y="7016" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-174" value="cache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-70" y="6700" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-175" value="memory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="260" y="6861" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-176" value="IF write through" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-170" y="7005" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VHJCXaAk8W6C1qhDL18c-177" value="写，如果命中，看写策略，如果是直写，则同时写入cache和memory，否则只写cache，并标识dirty" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;" vertex="1" parent="RNmGIZCbpkAgwTGCPnIk-1">
+          <mxGeometry x="-540" y="7130" width="1020" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
