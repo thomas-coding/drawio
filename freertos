@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T06:30:06.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="KBz8nhQoBYefVa1OCe-3" version="17.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-25T06:42:07.839Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="291HCJo5ya9HCPiRcsdB" version="17.2.1" type="github" pages="3">
   <diagram id="_xGLCLvP320mMHL_GVve" name="m_sechdule">
     <mxGraphModel dx="2669" dy="1643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -889,6 +889,9 @@
         </mxCell>
         <mxCell id="wEZjzk4iTZzlMRS1mSrY-88" value="freertos HEAP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
           <mxGeometry x="-990" y="1870" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wEZjzk4iTZzlMRS1mSrY-89" value="NOTE:开机场景有些不同，task创建的时候会准备好taks的stack，并初始化好context，设置好top指针。启动第一个task时，&lt;br&gt;不需要保存context，只需要从top中恢复出context，设置好psp，另外特别需要注意的是还需要切到thread mode，psp状态，&lt;br&gt;进入handler时状态时thread mode，msp状态，所以我们需要修改lr，让他返回后使用psp" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1275" y="2310" width="670" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
