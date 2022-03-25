@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T06:44:31.389Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="czi8UoRFu8VD-22q3dXC" version="17.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-25T08:46:10.512Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="gM1OlmrvcfLKrPuB97Ww" version="17.2.1" type="github" pages="3">
   <diagram id="_xGLCLvP320mMHL_GVve" name="m_sechdule">
     <mxGraphModel dx="2669" dy="1643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,7 +101,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UKc79RMDoj2k4gaHUMLu" name="queue">
-    <mxGraphModel dx="1015" dy="1643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1015" dy="1641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="qmAQuSyf1RzrekipyW1D-0" />
         <mxCell id="qmAQuSyf1RzrekipyW1D-1" parent="qmAQuSyf1RzrekipyW1D-0" />
@@ -340,7 +340,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="T-ekY3pC-pNB_xblC7Ht" name="sech">
-    <mxGraphModel dx="2429" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2500" dy="393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="S96dwpBr6sav4b6gZR5A-0" />
         <mxCell id="S96dwpBr6sav4b6gZR5A-1" parent="S96dwpBr6sav4b6gZR5A-0" />
@@ -892,6 +892,74 @@
         </mxCell>
         <mxCell id="wEZjzk4iTZzlMRS1mSrY-89" value="NOTE:开机场景有些不同，task创建的时候会准备好taks的stack，并初始化好context，设置好top指针。启动第一个task时，&lt;br&gt;不需要保存context，只需要从top中恢复出context，设置好psp，另外特别需要注意的是还需要切到thread mode，psp状态，&lt;br&gt;进入handler时状态时thread mode，msp状态，所以我们需要修改lr，让他返回后使用psp" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
           <mxGeometry x="-1275" y="2310" width="670" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1200" y="2810" as="sourcePoint" />
+            <mxPoint x="-1200" y="2520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-2" value="priority" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1260" y="2510" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-3" value="TCB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1130" y="2750" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="S96dwpBr6sav4b6gZR5A-1" source="KS8uj_OvFtL4hgFOr5E7-4" target="KS8uj_OvFtL4hgFOr5E7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-4" value="list[0]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1240" y="2750" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="S96dwpBr6sav4b6gZR5A-1" source="KS8uj_OvFtL4hgFOr5E7-5" target="KS8uj_OvFtL4hgFOr5E7-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-5" value="list[1]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1240" y="2710" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="S96dwpBr6sav4b6gZR5A-1" source="KS8uj_OvFtL4hgFOr5E7-6" target="KS8uj_OvFtL4hgFOr5E7-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-6" value="list[2]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1240" y="2670" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="S96dwpBr6sav4b6gZR5A-1" source="KS8uj_OvFtL4hgFOr5E7-7" target="KS8uj_OvFtL4hgFOr5E7-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-7" value="TCB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1130" y="2710" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="S96dwpBr6sav4b6gZR5A-1" source="KS8uj_OvFtL4hgFOr5E7-8" target="KS8uj_OvFtL4hgFOr5E7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-8" value="TCB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1035" y="2710" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-9" value="TCB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-950" y="2710" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="S96dwpBr6sav4b6gZR5A-1" source="KS8uj_OvFtL4hgFOr5E7-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1040" y="2680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-10" value="TCB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1130" y="2670" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-11" value="TCB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1035" y="2670" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="S96dwpBr6sav4b6gZR5A-1" target="KS8uj_OvFtL4hgFOr5E7-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1010" y="2780" as="sourcePoint" />
+            <mxPoint x="-990" y="2760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-19" value="index" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1030" y="2780" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KS8uj_OvFtL4hgFOr5E7-20" value="调度时，找到下一个要运行的task&lt;br&gt;1、每个task根据不同的优先级放在不同的链表中，同时有一个全局变量top，记录最高优先级&lt;br&gt;2、调度时，根据top找到链表，链表中有个index表示上次执行的task，index++，获取tcb，赋值给current tcb" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1255" y="2840" width="590" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
