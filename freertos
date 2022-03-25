@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T06:27:28.493Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="mQd10bHa42FRe6Giz7QM" version="17.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-25T06:30:06.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="KBz8nhQoBYefVa1OCe-3" version="17.2.1" type="github" pages="3">
   <diagram id="_xGLCLvP320mMHL_GVve" name="m_sechdule">
     <mxGraphModel dx="2669" dy="1643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -868,6 +868,27 @@
         </mxCell>
         <mxCell id="wEZjzk4iTZzlMRS1mSrY-77" value="sechdule（在handler模式处理）:&lt;br&gt;1、hardware保存stack frame到旧的task的stack中，软件保存其余的context到task stack中，更新top到task tcb&lt;br&gt;2、freertos修改current tcb，指向新的task的tcb&lt;br&gt;3、从新的task的tcb中获取top指针，恢复出context，并设置psp" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
           <mxGeometry x="-1280" y="2220" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wEZjzk4iTZzlMRS1mSrY-78" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-865" y="1910" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wEZjzk4iTZzlMRS1mSrY-79" value="task1 stack" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-845" y="1945" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wEZjzk4iTZzlMRS1mSrY-84" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-864" y="2000" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wEZjzk4iTZzlMRS1mSrY-85" value="task2 stack" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-844" y="2035" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wEZjzk4iTZzlMRS1mSrY-86" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-864" y="2089" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wEZjzk4iTZzlMRS1mSrY-87" value="task3 stack" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-844" y="2124" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wEZjzk4iTZzlMRS1mSrY-88" value="freertos HEAP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-990" y="1870" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
