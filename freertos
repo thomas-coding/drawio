@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T12:02:30.830Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="jsdwTF8_DT22WBPU6T7u" version="17.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-25T12:07:32.538Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="1lw6jGwEMqNWr6Pmviqu" version="17.2.1" type="github" pages="3">
   <diagram id="_xGLCLvP320mMHL_GVve" name="m_schedule">
     <mxGraphModel dx="2669" dy="1641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1012,7 +1012,7 @@
         <mxCell id="PEqnZMbbztRUVXHq_fQV-15" value="TCB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
           <mxGeometry x="-1105" y="3160" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="PEqnZMbbztRUVXHq_fQV-16" value="TCB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+        <mxCell id="PEqnZMbbztRUVXHq_fQV-16" value="TCB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
           <mxGeometry x="-1010" y="3160" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PEqnZMbbztRUVXHq_fQV-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" target="PEqnZMbbztRUVXHq_fQV-12" parent="S96dwpBr6sav4b6gZR5A-1">
@@ -1029,6 +1029,24 @@
         </mxCell>
         <mxCell id="PEqnZMbbztRUVXHq_fQV-20" value="ready_list[0]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
           <mxGeometry x="-1255" y="3240" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PEqnZMbbztRUVXHq_fQV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="S96dwpBr6sav4b6gZR5A-1" source="PEqnZMbbztRUVXHq_fQV-21" target="PEqnZMbbztRUVXHq_fQV-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PEqnZMbbztRUVXHq_fQV-21" value="delay_list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1055" y="3070" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PEqnZMbbztRUVXHq_fQV-22" value="TCB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-935" y="3070" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PEqnZMbbztRUVXHq_fQV-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.892;exitY=-0.212;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="S96dwpBr6sav4b6gZR5A-1" source="PEqnZMbbztRUVXHq_fQV-16" target="PEqnZMbbztRUVXHq_fQV-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-960" y="3150" as="sourcePoint" />
+            <mxPoint x="-910" y="3100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PEqnZMbbztRUVXHq_fQV-26" value="TaskDelay 实现（作用，防止高优先级task一直占用CPU，低优先级的饿死）&lt;br&gt;1、Task中调用delay函数，传入要延时的tick数，kernel 把它从ready list中移除，放到delay list中，让出cpu&lt;br&gt;2、调度时，判断是否有delay list中的task时间到了，如果有，则把它从delay list中移除，放入ready list，发起调度" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1260" y="3320" width="620" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
