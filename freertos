@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T12:32:48.483Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="1y8BxvvaTAIb2cSL2IrI" version="17.2.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-26T03:21:51.524Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="tiWu_yrviq2p8KHYzO83" version="16.4.11" type="github" pages="3">
   <diagram id="_xGLCLvP320mMHL_GVve" name="m_schedule">
-    <mxGraphModel dx="2670" dy="1642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3716" dy="2283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -101,7 +101,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UKc79RMDoj2k4gaHUMLu" name="queue">
-    <mxGraphModel dx="1015" dy="1641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="2283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="qmAQuSyf1RzrekipyW1D-0" />
         <mxCell id="qmAQuSyf1RzrekipyW1D-1" parent="qmAQuSyf1RzrekipyW1D-0" />
@@ -340,7 +340,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="T-ekY3pC-pNB_xblC7Ht" name="schedule">
-    <mxGraphModel dx="2670" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2832" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="S96dwpBr6sav4b6gZR5A-0" />
         <mxCell id="S96dwpBr6sav4b6gZR5A-1" parent="S96dwpBr6sav4b6gZR5A-0" />
@@ -1047,6 +1047,99 @@
         </mxCell>
         <mxCell id="PEqnZMbbztRUVXHq_fQV-26" value="TaskDelay 实现（作用，防止高优先级task一直占用CPU，低优先级的饿死）&lt;br&gt;1、Task中调用delay函数，传入要延时的tick数，kernel 把它从ready list中移除，放到delay list中，让出cpu&lt;br&gt;2、调度时，判断是否有delay list中的task时间到了，如果有，则把它从delay list中移除，放入ready list，发起调度&lt;br&gt;&lt;br&gt;总结来说，delay的实际既把task从ready list中移除，这样就调度不到了，等时间到了再放回来" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="S96dwpBr6sav4b6gZR5A-1" vertex="1">
           <mxGeometry x="-1260" y="3305" width="620" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-0" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1185" y="3750" as="sourcePoint" />
+            <mxPoint x="-1185" y="3460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-1" value="priority" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1245" y="3450" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-2" value="TCB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1115" y="3690" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" target="LocXBDI02isFxLVIiWai-2" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1185" y="3700" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" target="LocXBDI02isFxLVIiWai-8" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1185" y="3660" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="LocXBDI02isFxLVIiWai-6" target="LocXBDI02isFxLVIiWai-13" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-6" value="ready_list[2]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1265" y="3610" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="LocXBDI02isFxLVIiWai-8" target="LocXBDI02isFxLVIiWai-10" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-8" value="TCB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1115" y="3650" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="LocXBDI02isFxLVIiWai-10" target="LocXBDI02isFxLVIiWai-11" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-10" value="TCB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1020" y="3650" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-11" value="TCB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-935" y="3650" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="LocXBDI02isFxLVIiWai-13" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1025" y="3620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-13" value="TCB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1115" y="3610" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-14" value="TCB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1020" y="3610" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" target="LocXBDI02isFxLVIiWai-10" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-995" y="3720" as="sourcePoint" />
+            <mxPoint x="-975" y="3700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-16" value="index" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1015" y="3720" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-17" value="ready_list[1]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1265" y="3650" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-18" value="ready_list[0]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1265" y="3690" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="LocXBDI02isFxLVIiWai-20" target="LocXBDI02isFxLVIiWai-21" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-20" value="delay_list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1065" y="3520" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-21" value="TCB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-945" y="3520" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-22" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.892;exitY=-0.212;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" source="LocXBDI02isFxLVIiWai-14" target="LocXBDI02isFxLVIiWai-21" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-970" y="3600" as="sourcePoint" />
+            <mxPoint x="-920" y="3550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-23" value="Queue receive等待机制实现（send一样原理）&lt;br&gt;1、发现queue空，需要等待，把当前task放到delay list中，同时放到queue的wait list中&lt;br&gt;2、等待过程中，send task往queue中写了数据，则把receive task从delay list 移到ready list，删除queue wait list中的item&lt;br&gt;2、超时了，调度时，调度器把receive task从delay中移动到ready list，删除queue wait lsit中的item&lt;br&gt;&lt;br&gt;总结来说，queue等待实际就是把当前task挪到delay list中，等待event或者超时，再挪回来" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1270" y="3750" width="660" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="S96dwpBr6sav4b6gZR5A-1" source="LocXBDI02isFxLVIiWai-24" target="LocXBDI02isFxLVIiWai-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LocXBDI02isFxLVIiWai-24" value="queue wait list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="S96dwpBr6sav4b6gZR5A-1">
+          <mxGeometry x="-1085" y="3490" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
