@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T03:21:51.524Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="tiWu_yrviq2p8KHYzO83" version="16.4.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-26T09:25:47.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="xeFWYqoWm130laAIqJk7" version="16.4.11" type="github" pages="3">
   <diagram id="_xGLCLvP320mMHL_GVve" name="m_schedule">
     <mxGraphModel dx="3716" dy="2283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,7 +101,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UKc79RMDoj2k4gaHUMLu" name="queue">
-    <mxGraphModel dx="2062" dy="2283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="937" dy="1675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="qmAQuSyf1RzrekipyW1D-0" />
         <mxCell id="qmAQuSyf1RzrekipyW1D-1" parent="qmAQuSyf1RzrekipyW1D-0" />
@@ -335,6 +335,24 @@
         </mxCell>
         <mxCell id="sfu-x7Ta88HZrhHruaA--66" value="write to back is fifo, also write/read can add wait option.&amp;nbsp;&lt;br&gt;Is there have notification for queue notify custmor?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="qmAQuSyf1RzrekipyW1D-1" vertex="1">
           <mxGeometry x="140" y="1365" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5FsJCpMTNO57Y8RQ1_rw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="qmAQuSyf1RzrekipyW1D-1" source="5FsJCpMTNO57Y8RQ1_rw-0" target="5FsJCpMTNO57Y8RQ1_rw-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5FsJCpMTNO57Y8RQ1_rw-0" value="Queue_t" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="qmAQuSyf1RzrekipyW1D-1">
+          <mxGeometry x="502.5" y="1630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5FsJCpMTNO57Y8RQ1_rw-1" value="count" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="qmAQuSyf1RzrekipyW1D-1">
+          <mxGeometry x="742.5" y="1650" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5FsJCpMTNO57Y8RQ1_rw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="qmAQuSyf1RzrekipyW1D-1" source="5FsJCpMTNO57Y8RQ1_rw-3" target="5FsJCpMTNO57Y8RQ1_rw-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5FsJCpMTNO57Y8RQ1_rw-3" value="semapore" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="qmAQuSyf1RzrekipyW1D-1">
+          <mxGeometry x="312.5" y="1650" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VYg7PklT8yzFtJ5K4U00-0" value="semapore:&lt;br&gt;1、实际上就是一个没有item的queue，保持了count，初始化时调用give 让count变成1&lt;br&gt;2、take 之后count变成0，再有人take就会被失败，或者take传一个超时时间，就会被放到delay list中，等有人give&lt;br&gt;&lt;br&gt;&lt;br&gt;总结来说，semapore就是内存中的一个count，多个task通过这个count来同步" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qmAQuSyf1RzrekipyW1D-1">
+          <mxGeometry x="270" y="1730" width="620" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
