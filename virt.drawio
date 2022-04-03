@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-03T12:42:40.944Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="XsmT0T_RpurtuezL99Hk" version="17.2.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-03T12:47:05.654Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="4ygZ18kQz4uIDii9e5-S" version="17.2.4" type="github" pages="4">
   <diagram id="nvh7tYfEL4DqA_WDEGY_" name="a15">
     <mxGraphModel dx="2062" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1161,6 +1161,18 @@
         </mxCell>
         <mxCell id="NQMhxJahWAAnGo_GrtGt-20" value="void (*instance_init)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1160" y="180" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NQMhxJahWAAnGo_GrtGt-23" value="type_register_internal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="580" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NQMhxJahWAAnGo_GrtGt-24" value="type_initializ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="580" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NQMhxJahWAAnGo_GrtGt-25" value="object_new_with_type" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="580" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NQMhxJahWAAnGo_GrtGt-26" value="1、module init 会调用type register, malloc 一个type，并初始化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="680" width="350" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
