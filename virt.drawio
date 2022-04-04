@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-04T08:47:07.748Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="ivHzU75jreObs7IUDu-b" version="17.4.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-04T08:49:48.950Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="JoXHAmYaO37QstuUVplI" version="17.4.0" type="github" pages="4">
   <diagram id="nvh7tYfEL4DqA_WDEGY_" name="a15">
     <mxGraphModel dx="2062" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1171,8 +1171,8 @@
         <mxCell id="NQMhxJahWAAnGo_GrtGt-25" value="object_new_with_type" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="320" y="580" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NQMhxJahWAAnGo_GrtGt-26" value="1、module init 会调用type register, malloc 一个type，并初始化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="160" y="680" width="350" height="20" as="geometry" />
+        <mxCell id="NQMhxJahWAAnGo_GrtGt-26" value="1、module init 会调用type register, malloc 一个type，并初始化，类似定义要给类&lt;br&gt;2、调用所有type的class init，类似cpp中调用所有类的构造函数&lt;br&gt;3、按需调用type的instance init，类似cpp中的实例化对象" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="155" y="640" width="440" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DE-DNf02AnvJEMGLvTmX-1" value="properties" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="880" y="330" width="70" height="20" as="geometry" />
