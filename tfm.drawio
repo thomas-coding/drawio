@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-08T08:45:10.018Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="dHUO4J4XX3wKII91qWlc" version="17.4.0" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-04-08T08:47:15.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="LbMrEzU_I129W7VYMGhF" version="17.4.0" type="github" pages="12">
   <diagram id="Sv7XtGU4KH0JP1uGdEtq" name="memory layout">
     <mxGraphModel dx="2676" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3567,6 +3567,12 @@
         <mxCell id="rHAUC1FRMvXN1Hs0XH-Z-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="c2PW2vH4TevY_AVr43P2-1">
           <mxGeometry x="140" y="1020" width="430" height="160" as="geometry" />
         </mxCell>
+        <mxCell id="tTyrz02hQgZUwLqotUqL-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="c2PW2vH4TevY_AVr43P2-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499" y="1260" as="sourcePoint" />
+            <mxPoint x="499" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="rHAUC1FRMvXN1Hs0XH-Z-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="c2PW2vH4TevY_AVr43P2-1">
           <mxGeometry x="140" y="1260" width="430" height="130" as="geometry" />
         </mxCell>
@@ -3623,6 +3629,9 @@
         </mxCell>
         <mxCell id="rHAUC1FRMvXN1Hs0XH-Z-20" value="交换数据的memory由non secure 提供，传递指针给secure，secure 通过指针获取non-secure传过来的数据。&lt;br&gt;把要发给non-secure的数据，通过指针拷贝到non-secure的memory中。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="c2PW2vH4TevY_AVr43P2-1">
           <mxGeometry x="130" y="1405" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tTyrz02hQgZUwLqotUqL-1" value="bxns" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="c2PW2vH4TevY_AVr43P2-1">
+          <mxGeometry x="500" y="1210" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
