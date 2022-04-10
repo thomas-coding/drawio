@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-10T07:52:56.711Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="LPqe34s8dO1vXtLR3QIK" version="17.4.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-10T07:55:49.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="FkVHVrvyMTioeUcMfuuM" version="17.4.1" type="github" pages="4">
   <diagram id="nvh7tYfEL4DqA_WDEGY_" name="a15">
     <mxGraphModel dx="2062" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1478,7 +1478,7 @@
           <mxGeometry x="865" y="3140" width="910" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7U4LycK2YtEU5cWaqqOW-61" value="本质上来说，中断处理core定义一个irq，有handler处理函数。device获取这个irq的指针，然后需要触发时，通过这个指针通知core。core就知道这个device触发了irq。&lt;br&gt;core处理和arch相关，比如m3是NVIC，就是设置pending，然后根据vector base地址，加中断号，找到isr，然后修改core的pc指针指向对应的isr，guest os 就会执行isr了" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="295" y="3300" width="1060" height="40" as="geometry" />
+          <mxGeometry x="130" y="3300" width="1060" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7U4LycK2YtEU5cWaqqOW-62" value="Interrupt:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=3" vertex="1" parent="1">
           <mxGeometry x="90" y="2600" width="80" height="20" as="geometry" />
