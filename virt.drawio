@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-10T07:17:31.790Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="2fo7oU11zojL3WvuT7C_" version="17.4.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-10T07:47:55.028Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="01nSMlc30qz2E5EitXZL" version="17.4.1" type="github" pages="4">
   <diagram id="nvh7tYfEL4DqA_WDEGY_" name="a15">
     <mxGraphModel dx="2062" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1381,8 +1381,8 @@
         <mxCell id="7U4LycK2YtEU5cWaqqOW-17" value="init_nsvtor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="340" y="3040" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7U4LycK2YtEU5cWaqqOW-19" value="ARMv7MState是挂在sysbus上的device，这个结构体中包含了Device成员变量gpios，clocks，&lt;br&gt;也包含了sysBusDevice成员变量mmio，同时又有自己private的成员nvic、cpu指针等。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="130" y="3165" width="520" height="30" as="geometry" />
+        <mxCell id="7U4LycK2YtEU5cWaqqOW-19" value="ARMv7MState是挂在sysbus上的device，这个结构体中包含了Device成员变量gpios，clocks，&lt;br style=&quot;font-size: 14px;&quot;&gt;也包含了sysBusDevice成员变量mmio，同时又有自己private的成员nvic、cpu指针等。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="130" y="3160" width="600" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7U4LycK2YtEU5cWaqqOW-20" value="qemu_irq" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="584" y="2750" width="70" height="20" as="geometry" />
@@ -1420,16 +1420,11 @@
         <mxCell id="7U4LycK2YtEU5cWaqqOW-32" value="DeviceState" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1015" y="2800" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7U4LycK2YtEU5cWaqqOW-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7U4LycK2YtEU5cWaqqOW-33">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1420" y="3030" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="7U4LycK2YtEU5cWaqqOW-33" value="gpios" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1195" y="2690" width="40" height="20" as="geometry" />
+          <mxGeometry x="1205" y="2705" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7U4LycK2YtEU5cWaqqOW-34" value="clocks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1195" y="2740" width="50" height="20" as="geometry" />
+          <mxGeometry x="1200" y="2740" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7U4LycK2YtEU5cWaqqOW-35" value="mmio" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1200" y="2850" width="40" height="20" as="geometry" />
@@ -1443,23 +1438,16 @@
         <mxCell id="7U4LycK2YtEU5cWaqqOW-42" value="reg4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1200" y="3000" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7U4LycK2YtEU5cWaqqOW-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="7U4LycK2YtEU5cWaqqOW-43" target="7U4LycK2YtEU5cWaqqOW-45">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7U4LycK2YtEU5cWaqqOW-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="7U4LycK2YtEU5cWaqqOW-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1409" y="3039.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7U4LycK2YtEU5cWaqqOW-43" value="irq" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1205" y="3030" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7U4LycK2YtEU5cWaqqOW-44" value="qemu_irq" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1434" y="3097" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="7U4LycK2YtEU5cWaqqOW-45" value="handler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1409" y="3032" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7U4LycK2YtEU5cWaqqOW-46" value="n" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1409" y="3062" width="120" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="7U4LycK2YtEU5cWaqqOW-52" value="sysbus_init_irq" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1325" y="2680" width="90" height="20" as="geometry" />
+          <mxGeometry x="1290" y="3020" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7U4LycK2YtEU5cWaqqOW-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.036;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7U4LycK2YtEU5cWaqqOW-53" target="7U4LycK2YtEU5cWaqqOW-54">
           <mxGeometry relative="1" as="geometry" />
@@ -1482,6 +1470,12 @@
         </mxCell>
         <mxCell id="7U4LycK2YtEU5cWaqqOW-58" value="sysbus_connect_irq" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1100" y="2560" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7U4LycK2YtEU5cWaqqOW-59" value="prop sysbus-irq[0]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1405" y="3030" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7U4LycK2YtEU5cWaqqOW-60" value="1、sysbus_init_irq ， 把 TestDevice 中 irq 指针和 prop system-irq[0] 建立连接，这个获取这个值相当于获取prop&amp;nbsp;&lt;span style=&quot;text-align: center ; font-size: 15px&quot;&gt;sysbus-irq[0]的值&lt;br style=&quot;font-size: 15px&quot;&gt;2、&lt;/span&gt;&lt;span style=&quot;text-align: center ; font-size: 15px&quot;&gt;sysbus_connect_irq， 把prop&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center ; font-size: 15px&quot;&gt;sysbus-irq[0] 赋值为 armv7m中的 number为15的irq，这个&lt;/span&gt;TestDevice中irq就指向了armv7m 中的irq了&lt;br&gt;&lt;span style=&quot;text-align: center&quot;&gt;3、qemu_set_irq ，我们已经获取到了irq的指针，就可以通过这个指针通知armv7m 这个irq触发了&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="865" y="3140" width="910" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
