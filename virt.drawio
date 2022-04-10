@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-09T01:34:04.573Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="YCVxnjtG_TjlAFSJqKJC" version="17.4.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-10T05:53:13.045Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="QIwM8vSkL6PX5ZJAriSO" version="17.4.1" type="github" pages="4">
   <diagram id="nvh7tYfEL4DqA_WDEGY_" name="a15">
     <mxGraphModel dx="2062" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1338,6 +1338,48 @@
         </mxCell>
         <mxCell id="KQY349qe2tI3TCsJq12l-18" value="memory：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=3" parent="1" vertex="1">
           <mxGeometry x="125" y="1830" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7U4LycK2YtEU5cWaqqOW-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="130" y="2670" width="320" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="7U4LycK2YtEU5cWaqqOW-2" value="ARMv7MState" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="3120" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7U4LycK2YtEU5cWaqqOW-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="140" y="2670" width="310" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="7U4LycK2YtEU5cWaqqOW-4" value="SysBusDevice" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="2920" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7U4LycK2YtEU5cWaqqOW-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2670" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7U4LycK2YtEU5cWaqqOW-6" value="DeviceState" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2800" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7U4LycK2YtEU5cWaqqOW-11" value="gpios" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="2690" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7U4LycK2YtEU5cWaqqOW-12" value="clocks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="2740" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7U4LycK2YtEU5cWaqqOW-13" value="mmio" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="2850" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7U4LycK2YtEU5cWaqqOW-14" value="nvic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2960" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7U4LycK2YtEU5cWaqqOW-15" value="*cpu" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="2990" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7U4LycK2YtEU5cWaqqOW-16" value="init_svtor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="3010" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7U4LycK2YtEU5cWaqqOW-17" value="init_nsvtor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="3040" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7U4LycK2YtEU5cWaqqOW-19" value="ARMv7MState是挂在sysbus上的device，这个结构体中包含了Device成员变量gpios，clocks，也包含了sysBusDevice成员变量mmio，同时又有自己private的成员nvic、cpu指针等。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="3170" width="970" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
