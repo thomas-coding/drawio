@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T05:24:40.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="zRAMdevFBglQ1L7M32Yu" version="17.4.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-16T06:13:29.986Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="XO6CUxTCmCnV5ZO6nEyK" version="17.4.1" type="github" pages="4">
   <diagram id="nvh7tYfEL4DqA_WDEGY_" name="a15">
     <mxGraphModel dx="2062" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1485,6 +1485,9 @@
         </mxCell>
         <mxCell id="-ONR8IneY725KS940que-1" value="qdev_init_gpio_in_named" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="435" y="2680" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-ONR8IneY725KS940que-3" value="IO memory基本用法：&lt;br style=&quot;font-size: 17px&quot;&gt;1、memory_region_init_io(&amp;amp;ttd-&amp;gt;iomem, obj, &amp;amp;thomas_test_device_ops, ttd, &quot;thomas_test&quot;, 0x1000);&lt;br&gt;定义一块memory region，size为0x1000&lt;br&gt;2、sysbus_init_mmio(sbd, &amp;amp;ttd-&amp;gt;iomem);&lt;br&gt;把这块memory和sysbus device关联起来，device的mmio指向这块memory&lt;br&gt;3、sysbus_mmio_map(sbd, 0, addr); 或者&amp;nbsp;memory_region_add_subregion&lt;br&gt;把device的mmio[0] map到系统地址addr上，比如这里addr是0xf0000000，则0xf000000开始的0x1000就是这个device的io memory" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="2160" width="990" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
