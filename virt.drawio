@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-01T08:24:57.156Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="6I1aI63OkO8UR5xBG5YR" version="17.5.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-01T08:42:57.982Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="IVQxXTuEeI2lE06iYsq9" version="17.5.0" type="github" pages="4">
   <diagram id="nvh7tYfEL4DqA_WDEGY_" name="a15">
     <mxGraphModel dx="2062" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -634,13 +634,13 @@
           <mxGeometry x="396" y="3445" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ho-XsOWzqMUUMf8-RyjX-40" value="Linux PTE0(256)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="dpKYnhbwJ3I1PbK757Nq-1">
-          <mxGeometry x="396" y="3404" width="220" height="40" as="geometry" />
+          <mxGeometry x="396" y="3567" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ho-XsOWzqMUUMf8-RyjX-41" value="Linux PTE1(256)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="dpKYnhbwJ3I1PbK757Nq-1">
-          <mxGeometry x="396" y="3364" width="220" height="40" as="geometry" />
+          <mxGeometry x="396" y="3527" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ho-XsOWzqMUUMf8-RyjX-44" value="L2 256 * 4 byte * 4 = 4K" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="dpKYnhbwJ3I1PbK757Nq-1">
-          <mxGeometry x="390" y="3315" width="170" height="20" as="geometry" />
+          <mxGeometry x="384" y="3420" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Ho-XsOWzqMUUMf8-RyjX-45" value="static pte_t bm_pte[PTRS_PER_PTE + PTE_HWTABLE_PTRS]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="dpKYnhbwJ3I1PbK757Nq-1">
           <mxGeometry x="390" y="3270" width="440" height="20" as="geometry" />
@@ -658,13 +658,16 @@
           <mxGeometry x="820" y="3310" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Ho-XsOWzqMUUMf8-RyjX-51" value="1M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="dpKYnhbwJ3I1PbK757Nq-1">
-          <mxGeometry x="620" y="3370" width="40" height="20" as="geometry" />
+          <mxGeometry x="620" y="3533" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Ho-XsOWzqMUUMf8-RyjX-52" value="1M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="dpKYnhbwJ3I1PbK757Nq-1">
-          <mxGeometry x="624" y="3414" width="40" height="20" as="geometry" />
+          <mxGeometry x="624" y="3577" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Ho-XsOWzqMUUMf8-RyjX-53" value="1M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="dpKYnhbwJ3I1PbK757Nq-1">
           <mxGeometry x="624" y="3448" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ho-XsOWzqMUUMf8-RyjX-54" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;&amp;nbsp;* &amp;nbsp; &amp;nbsp;pgd &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; pte&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;&amp;nbsp;* | &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;&amp;nbsp;* +--------+&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;&amp;nbsp;* | &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| &amp;nbsp; &amp;nbsp; &amp;nbsp; +------------+ +0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;&amp;nbsp;* +- - - - + &amp;nbsp; &amp;nbsp; &amp;nbsp; | Linux pt 0 |&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;&amp;nbsp;* | &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| &amp;nbsp; &amp;nbsp; &amp;nbsp; +------------+ +1024&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;&amp;nbsp;* +--------+ +0 &amp;nbsp; &amp;nbsp;| Linux pt 1 |&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;&amp;nbsp;* | &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|-----&amp;gt; +------------+ +2048&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;&amp;nbsp;* +- - - - + +4 &amp;nbsp; &amp;nbsp;| &amp;nbsp;h/w pt 0 &amp;nbsp;|&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;&amp;nbsp;* | &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|-----&amp;gt; +------------+ +3072&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;&amp;nbsp;* +--------+ +8 &amp;nbsp; &amp;nbsp;| &amp;nbsp;h/w pt 1 &amp;nbsp;|&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955&quot;&gt;&amp;nbsp;* | &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;| &amp;nbsp; &amp;nbsp; &amp;nbsp; +------------+ +4096&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="dpKYnhbwJ3I1PbK757Nq-1">
+          <mxGeometry x="1110" y="3240" width="380" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
