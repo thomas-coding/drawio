@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-01T02:13:39.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="_2Py9KTlr_brY6JHK3-A" version="17.5.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-01T02:21:34.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="U_22fe3cJ-HoUmROamck" version="17.5.0" type="github" pages="4">
   <diagram id="_gwRcq96SCFIWMD-lvUL" name="start">
     <mxGraphModel dx="4543" dy="3452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -482,8 +482,8 @@
         <mxCell id="lIO51PWiLrex0drVtmtW-17" value="0x64000000(64M)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="830" y="1830" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="lIO51PWiLrex0drVtmtW-18" value="zimage relocate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="77.5" y="1810" width="110" height="20" as="geometry" />
+        <mxCell id="lIO51PWiLrex0drVtmtW-18" value="zimage relocate （mmu direct mapping）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="107" y="1810" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lIO51PWiLrex0drVtmtW-19" value="zimage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="550" y="1860" width="120" height="60" as="geometry" />
