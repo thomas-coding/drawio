@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T08:14:15.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="EurrCDzFvInrWuz01Qih" version="17.5.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-02T08:14:57.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="jdaEtPHmuQ7xOj2raqyn" version="17.5.0" type="github" pages="4">
   <diagram id="_gwRcq96SCFIWMD-lvUL" name="start">
     <mxGraphModel dx="4543" dy="3452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -930,8 +930,8 @@
             <mxPoint x="780" y="4450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qq70U_P6NN6FVhq281El-55" value="&lt;font face=&quot;Consolas, Courier New, Courier&quot; style=&quot;font-size: 15px&quot;&gt;这个阶段DDR也map了，可以访问DDR，通过 memblock 申请内存，这里paging好了就能使用了。&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;fontColor=#0066CC;" vertex="1" parent="1">
-          <mxGeometry x="185" y="5100" width="660" height="20" as="geometry" />
+        <mxCell id="qq70U_P6NN6FVhq281El-55" value="&lt;font face=&quot;Consolas, Courier New, Courier&quot; style=&quot;font-size: 15px&quot;&gt;这个阶段DDR也map了，可以访问DDR，通过 memblock 申请内存，这里paging好了就能使用了。&lt;br&gt;kernel部分也重新 map了，分成x和nx两个部分，DTB需要再确认下&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;fontColor=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="235" y="5060" width="660" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
