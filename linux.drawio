@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T08:16:40.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="q-iGIm2EYZARzKV130EG" version="17.5.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-02T08:42:42.501Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="dLCDMdt96dAo7q3fkI-6" version="17.5.0" type="github" pages="4">
   <diagram id="_gwRcq96SCFIWMD-lvUL" name="start">
     <mxGraphModel dx="4543" dy="3452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -932,6 +932,45 @@
         </mxCell>
         <mxCell id="qq70U_P6NN6FVhq281El-55" value="&lt;font face=&quot;Consolas, Courier New, Courier&quot; style=&quot;font-size: 15px&quot;&gt;这个阶段DDR也map了，可以访问DDR，通过 memblock 申请内存，这里paging好了就能使用了。&lt;br&gt;kernel部分也重新 map了，分成x和nx两个部分，DTB需要再确认下&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;fontColor=#0066CC;" vertex="1" parent="1">
           <mxGeometry x="235" y="5060" width="660" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qq70U_P6NN6FVhq281El-56" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="5200" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qq70U_P6NN6FVhq281El-57" value="memblock" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="272.5" y="5170" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qq70U_P6NN6FVhq281El-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qq70U_P6NN6FVhq281El-58" target="qq70U_P6NN6FVhq281El-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qq70U_P6NN6FVhq281El-58" value="memory" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="5280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qq70U_P6NN6FVhq281El-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qq70U_P6NN6FVhq281El-59" target="qq70U_P6NN6FVhq281El-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qq70U_P6NN6FVhq281El-59" value="reserved" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="5340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qq70U_P6NN6FVhq281El-61" value="rengion0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="537.5" y="5160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qq70U_P6NN6FVhq281El-63" value="..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="538" y="5200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qq70U_P6NN6FVhq281El-64" value="rengion n" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="538" y="5240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qq70U_P6NN6FVhq281El-66" value="rengion0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="539.5" y="5350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qq70U_P6NN6FVhq281El-67" value="..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="540" y="5390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qq70U_P6NN6FVhq281El-68" value="rengion n" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="540" y="5430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qq70U_P6NN6FVhq281El-70" value="&lt;font face=&quot;Consolas, Courier New, Courier&quot; style=&quot;font-size: 15px&quot;&gt;memory表示可用内存，reserved表示已经有人用了，当向 memblock 申请内存时，基本原理是把申请的内存从 memory 区域挪到 reserved 区域。&lt;br style=&quot;font-size: 15px&quot;&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;fontColor=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="265" y="5530" width="1010" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
