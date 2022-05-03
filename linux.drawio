@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-03T05:14:01.397Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="3jfjFv4CB3R0Cxgj8mwi" version="17.5.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-03T10:52:55.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="BNxcHbK-qxFHGixLZae9" version="17.5.0" type="github" pages="5">
   <diagram id="_gwRcq96SCFIWMD-lvUL" name="start">
     <mxGraphModel dx="4543" dy="3452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1198,6 +1198,82 @@
         </mxCell>
         <mxCell id="qq70U_P6NN6FVhq281El-136" value="1M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="1131.5" y="5388" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PNhDhYlMLTVUQygsUxZb" name="process">
+    <mxGraphModel dx="1178" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f_KFKNi-FmFm_-XzxiKS-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="170" width="120" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="f_KFKNi-FmFm_-XzxiKS-2" value="task_struct" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="150" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f_KFKNi-FmFm_-XzxiKS-3" value="thread_info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f_KFKNi-FmFm_-XzxiKS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="f_KFKNi-FmFm_-XzxiKS-4" target="f_KFKNi-FmFm_-XzxiKS-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_KFKNi-FmFm_-XzxiKS-4" value="*stack" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="270" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f_KFKNi-FmFm_-XzxiKS-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="151" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="f_KFKNi-FmFm_-XzxiKS-6" value="stack 4k" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="131" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f_KFKNi-FmFm_-XzxiKS-8" value="stack" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="530" y="171" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f_KFKNi-FmFm_-XzxiKS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f_KFKNi-FmFm_-XzxiKS-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="231" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_KFKNi-FmFm_-XzxiKS-9" value="sp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="221" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f_KFKNi-FmFm_-XzxiKS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="f_KFKNi-FmFm_-XzxiKS-11" target="f_KFKNi-FmFm_-XzxiKS-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="450" />
+              <mxPoint x="240" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f_KFKNi-FmFm_-XzxiKS-11" value="current" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="440" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f_KFKNi-FmFm_-XzxiKS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="f_KFKNi-FmFm_-XzxiKS-13" target="f_KFKNi-FmFm_-XzxiKS-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f_KFKNi-FmFm_-XzxiKS-13" value="cpu_context" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="300" y="380" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f_KFKNi-FmFm_-XzxiKS-14" value="r4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="360" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f_KFKNi-FmFm_-XzxiKS-16" value="..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="380" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f_KFKNi-FmFm_-XzxiKS-17" value="pc" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="400" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f_KFKNi-FmFm_-XzxiKS-18" value="extra" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="420" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f_KFKNi-FmFm_-XzxiKS-20" value="每个进程都对应有一个task struct&lt;br&gt;第一个元素是thread info（arch相关），保存了context&lt;br&gt;stack指向进程栈，内核进程栈为4k" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="125" y="475" width="310" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
