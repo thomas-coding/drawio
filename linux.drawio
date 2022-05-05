@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T09:23:35.299Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="CsRFWZFtuO-9jXrZecNi" version="17.5.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-05T11:21:36.263Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="bHwknz5TXBhWa5-DzfyL" version="17.5.0" type="github" pages="6">
   <diagram id="_gwRcq96SCFIWMD-lvUL" name="start">
     <mxGraphModel dx="4543" dy="3452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1203,7 +1203,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PNhDhYlMLTVUQygsUxZb" name="process">
-    <mxGraphModel dx="2062" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="2214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1376,6 +1376,9 @@
         <mxCell id="-UiJMVKiloaNYvbUpY-C-20" value="系统起来，跑在0号进程，创建init和kthreadd两个进程，然后进入idle状态。1号init进程和2和kthreadd进程继续运行。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="90" y="1350" width="650" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="MUVgEi7nIMM4wsUgydR9-1" value="linux/include/linux/sched.h" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="-10" width="150" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -1515,6 +1518,9 @@
         </mxCell>
         <mxCell id="7N5nhNCpPCb-HFqUfoUo-39" value="linux/include/linux/user_namespace.h" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="65" y="1040" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7N5nhNCpPCb-HFqUfoUo-41" value="s_fs_info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="760" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
