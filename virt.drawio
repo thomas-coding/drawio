@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-01T08:42:57.982Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="IVQxXTuEeI2lE06iYsq9" version="17.5.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-14T08:30:18.987Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="ttbsp9V90V8VN8rRc6nD" version="18.0.3" type="github" pages="5">
   <diagram id="nvh7tYfEL4DqA_WDEGY_" name="a15">
     <mxGraphModel dx="2062" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1998,6 +1998,206 @@
         </mxCell>
         <mxCell id="-ONR8IneY725KS940que-14" value="本质上是device调用NVIC函数，告诉NVIC这个中断触发了，NVIC告诉Core中断触发了，core停下现在执行的代码，&lt;br&gt;从vector中获取中断处理函数的地址，修改pc跳转到中断处理函数来处理，处理完成后再恢复pc，继续跑之前代码。&lt;br&gt;qemu用GPIO in out机制，主要是为了隔离，增加interface，把device、中断控制器、core解耦开" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="190" y="4260" width="890" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ASOxVL8I4DMhx_rLjZR6" name="atf">
+    <mxGraphModel dx="2062" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SMecNR32WrpZ1EK19_2L-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-2" target="SMecNR32WrpZ1EK19_2L-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-2" value="dev_handle" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="130" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-3" value="info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="130" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-4" value="io_entity" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="150" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-6" target="SMecNR32WrpZ1EK19_2L-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-6" value="funcs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="380" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-7" value="info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="380" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-8" value="&lt;span style=&quot;&quot;&gt;io_dev_info&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="150" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-9" value="open" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="660" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-10" value="seek" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="660" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-11" value="io_dev_funcs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="655" y="150" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-12" value="size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="660" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-13" value="read" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="660" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-14" value="write" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="660" y="290" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-15" value="close" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="660" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-16" value="dev_init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="660" y="350" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-17" value="dev_close" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="660" y="380" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-19" value="dev_open" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="570" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-20" value="io_dev_connector" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="540" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-21" value="memmap_dev_open" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="575" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-23" target="SMecNR32WrpZ1EK19_2L-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-23" value="register_io_dev_memmap" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="575" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-24" value="register获取device的connector，里面有open函数指针&lt;br&gt;这个函数是具体的某个IO device提供出来的，用于注册某个具体的io device，比如memory， sd等" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="100" y="635" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-25" value="io_dev_open" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="710" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-27" target="SMecNR32WrpZ1EK19_2L-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-27" value="memmap_dev_funcs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="310" y="750" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-29" target="SMecNR32WrpZ1EK19_2L-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-29" value="info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="310" y="780" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-30" value="&lt;span style=&quot;&quot;&gt;io_dev_info&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="730" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-32" value="open" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="590" y="750" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-34" value="seek" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="590" y="780" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-35" value="io_dev_funcs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="585" y="730" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="825" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-37" value="size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="590" y="810" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-39" value="read" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="590" y="840" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-41" value="write" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="590" y="870" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-43" value="close" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="590" y="900" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="945" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-45" value="dev_init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="590" y="930" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="975" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-47" value="dev_close" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="590" y="960" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-49" target="SMecNR32WrpZ1EK19_2L-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-49" value="memmap_dev_handle" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="747" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-50" value="NULL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="785" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-51" value="memmap_block_open" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830" y="755" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-52" value="memmap_block_seek" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830" y="790" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-53" value="memmap_block_len" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="835" y="815" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-54" value="memmap_block_read" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="835" y="840" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-55" value="memmap_block_write" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="835" y="875" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-56" value="memmap_block_close" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="835" y="905" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-57" value="memmap_dev_close" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="835" y="965" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-58" value="NULL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="790" y="935" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
