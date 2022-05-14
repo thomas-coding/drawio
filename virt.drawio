@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-14T08:32:51.395Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="5czg_RXNK_dmF7_8vcmK" version="18.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-14T09:32:04.365Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="Gkf6yMv8lLlB5faMqMMK" version="18.0.3" type="github" pages="5">
   <diagram id="nvh7tYfEL4DqA_WDEGY_" name="a15">
     <mxGraphModel dx="2062" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2199,8 +2199,167 @@
         <mxCell id="SMecNR32WrpZ1EK19_2L-58" value="NULL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="790" y="935" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SMecNR32WrpZ1EK19_2L-59" value="dev open 函数获取这个设备的dev info，设备的dev info包含了操作这个io device的各个函数指针" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="120" y="1025" width="540" height="20" as="geometry" />
+        <mxCell id="SMecNR32WrpZ1EK19_2L-59" value="dev open 函数获取这个设备的dev info，设备的dev info包含了操作这个io device的各个函数指针，get plat image source时，就把这个dev info返回给系统，系统就知道通过设备io device来获取image了" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="1025" width="1110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-63" value="storage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="1190" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-65" value="memory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="805" y="1070" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-66" target="SMecNR32WrpZ1EK19_2L-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-66" target="SMecNR32WrpZ1EK19_2L-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-66" value="io_open" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-67" value="io_seek" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1250" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-68" value="io_size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-69" value="io_read" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-70" value="io_write" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-71" value="io_close" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-74" value="io_dev_init" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-75" value="memmap_block_open" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-76" value="memmap_block_seek" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-77" value="memmap_block_len" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-78" value="memmap_block_read" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-79" value="memmap_block_write" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-80" value="memmap_block_close" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1250" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-81" value="NULL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-83" value="mtd" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1350" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-84" value="mtd_open" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="775" y="1380" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-85" value="mtd_seek" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="775" y="1410" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-86" value="mtd_read" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="775" y="1440" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-87" value="mtd_close" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="775" y="1470" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-93" value="abstraction layer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1460" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="SMecNR32WrpZ1EK19_2L-96" target="SMecNR32WrpZ1EK19_2L-99" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-96" value="memmap_dev_handle" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1800" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-97" target="SMecNR32WrpZ1EK19_2L-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-97" value="info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1830" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-98" value="io_entity" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1780" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-99" target="SMecNR32WrpZ1EK19_2L-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-99" value="memmap_dev_funcs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1670" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-100" value="info" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1700" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-101" value="&lt;span style=&quot;&quot;&gt;io_dev_info&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1650" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="SMecNR32WrpZ1EK19_2L-102" target="SMecNR32WrpZ1EK19_2L-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-102" value="image_handle" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1798" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-104" value="memory" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1540" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-105" value="memmap_block_open" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="965" y="1570" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-106" value="memmap_block_seek" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="965" y="1600" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-107" value="memmap_block_len" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="965" y="1630" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-108" value="memmap_block_read" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="965" y="1660" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-109" value="memmap_block_write" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="965" y="1690" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-110" value="memmap_block_close" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="965" y="1720" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-111" value="NULL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="965" y="1750" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-113" value="io open 函数，获取一个enrity，指向了dev info。&lt;br&gt;调用dev的open函数，给enrity的info赋值全局结构体，用于io操作" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="2140" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-114" value="io_open" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="1770" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-115" value="current_memmap_file" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="605" y="1880" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-116" value="in_use" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="605" y="1910" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-117" value="base" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="605" y="1940" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-118" value="file_pos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="605" y="1970" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-119" value="size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="605" y="2000" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-121" value="NULL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="755" y="1710" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-123" value="binary base" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="732" y="1950" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SMecNR32WrpZ1EK19_2L-124" value="real image size" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="731" y="2005" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
