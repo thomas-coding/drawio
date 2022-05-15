@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T04:54:10.383Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="7eWV1t3-5_O6AcO-b1Dk" version="18.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-15T04:54:20.294Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="3ayHHcySntJHEJK-Eoyx" version="18.0.4" type="github" pages="5">
   <diagram id="nvh7tYfEL4DqA_WDEGY_" name="a15">
     <mxGraphModel dx="2062" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2771,8 +2771,8 @@
         <mxCell id="SwhybkqHj5bZpnKv8Zhm-147" value="&lt;div&gt;R1 = 0x10000000&lt;/div&gt;&lt;div&gt;LR = 0x10000000&lt;/div&gt;&lt;div&gt;SPSR_MON = 0x1d3&lt;/div&gt;&lt;div&gt;SCR=0x200&lt;/div&gt;&lt;div&gt;eret&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="185" y="4320" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SwhybkqHj5bZpnKv8Zhm-148" value="BL1 跳转BL2，本质上来说是在mon mode设置 spsr 和 lr， 然后调用eret， 硬件会从spsr恢复出cpsr（这样就切换到了svc模式），硬件会从lr恢复出pc（这样就跳到了BL2的入口地址去执行了）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="180" y="4440" width="1320" height="20" as="geometry" />
+        <mxCell id="SwhybkqHj5bZpnKv8Zhm-148" value="BL1 跳转BL2，本质上来说是在mon mode设置 spsr 和 lr， 然后调用eret， 硬件会从spsr恢复出cpsr（这样就切换到了svc mode），硬件会从lr恢复出pc（这样就跳到了BL2的入口地址去执行了）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="4440" width="1330" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
