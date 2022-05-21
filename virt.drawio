@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T04:09:59.343Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="tQ6Ffu1kcyJxU60Vo-SA" version="18.0.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-21T05:54:29.210Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="5JPWUxxeWf1kBllvC9iC" version="18.0.8" type="github" pages="6">
   <diagram id="nvh7tYfEL4DqA_WDEGY_" name="a15">
     <mxGraphModel dx="2062" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2774,7 +2774,7 @@
         <mxCell id="SwhybkqHj5bZpnKv8Zhm-148" value="BL1 跳转BL2，本质上来说是在mon mode设置 spsr 和 lr， 然后调用eret， 硬件会从spsr恢复出cpsr（这样就切换到了svc mode），硬件会从lr恢复出pc（这样就跳到了BL2的入口地址去执行了）&lt;br&gt;R1是share memory base地址，如果BL1和BL2之间需要传递信息，可以放到这个区域，BL2通过R1获取base，就能拿到数据了。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="180" y="4430" width="1330" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dXKPIGaXEkieD5iaIzGi-1" value="BL2 ----&amp;gt; BL31" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="dXKPIGaXEkieD5iaIzGi-1" value="BL2 ----&amp;gt; BL32" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="215" y="4510" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dXKPIGaXEkieD5iaIzGi-2" value="entry_point_info" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -2933,8 +2933,14 @@
         <mxCell id="dXKPIGaXEkieD5iaIzGi-75" value="0x10100000" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1380" y="4786.5" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="dXKPIGaXEkieD5iaIzGi-76" value="BL2 跳转BL31，本质上来说是通过SMC跳转到BL1, 传入ep info。在smc处理函数中设置 spsr 和 lr， 然后调用eret， 硬件会从spsr恢复出cpsr，硬件会从lr恢复出pc（这样就跳到了BL31的入口地址去执行了）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="dXKPIGaXEkieD5iaIzGi-76" value="BL2 跳转BL32，本质上来说是通过SMC跳转到BL1, 传入ep info。在smc处理函数中设置 spsr 和 lr， 然后调用eret， 硬件会从spsr恢复出cpsr，硬件会从lr恢复出pc（这样就跳到了BL31的入口地址去执行了）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="185" y="4970" width="1410" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dXKPIGaXEkieD5iaIzGi-77" value="BL32 ----&amp;gt; BL33" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="180" y="5050" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dXKPIGaXEkieD5iaIzGi-78" value="BL32 跳转BL33，或者和BL1跳转到BL2类似，差别是BL33是non-secure的，有些分支不同&lt;br&gt;本质上来说是在mon mode设置 spsr 和 lr， 然后调用eret， 硬件会从spsr恢复出cpsr（这样就切换到了svc mode），硬件会从lr恢复出pc（这样就跳到了BL33的入口地址去执行了）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="5090" width="1230" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
