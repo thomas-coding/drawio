@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-22T09:56:29.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="_NZ1F3TUgLFHesRLEW24" version="18.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-22T09:57:06.035Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="2X5kiVTtqCZ_5OY6jkqy" version="18.1.1" type="github" pages="7">
   <diagram id="nvh7tYfEL4DqA_WDEGY_" name="a15">
     <mxGraphModel dx="2062" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3155,7 +3155,7 @@
           <mxGeometry x="130" y="1090" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="w-rPOAaHIduj8L9iN-ne-15" value="PHYS_SDRAM_SIZE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="505" y="230" width="130" height="20" as="geometry" />
+          <mxGeometry x="240" y="260" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="w-rPOAaHIduj8L9iN-ne-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w-rPOAaHIduj8L9iN-ne-16">
           <mxGeometry relative="1" as="geometry">
@@ -3297,6 +3297,12 @@
         </mxCell>
         <mxCell id="w-rPOAaHIduj8L9iN-ne-55" value="board_init_f ：&lt;br&gt;init console, relocated 位置计算，gd 和 dtb 拷贝过去&lt;br&gt;之后回到crt0.s ，relocated code，然后调用 init r" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="145" y="1220" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w-rPOAaHIduj8L9iN-ne-56" value="CONFIG_SYS_SDRAM_BASE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="260" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="w-rPOAaHIduj8L9iN-ne-57" value="+" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="215" y="255" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
