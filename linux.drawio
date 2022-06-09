@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T07:07:26.434Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="5dittcTntDlKhATl2izA" version="19.0.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-06-09T07:19:22.210Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="FhRwxjsDP1jYzc_4E7mC" version="19.0.2" type="github" pages="8">
   <diagram id="_gwRcq96SCFIWMD-lvUL" name="start">
     <mxGraphModel dx="4543" dy="3452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2004,6 +2004,15 @@
         </mxCell>
         <mxCell id="t-jFUo6VS6HLVj5Gphrs-115" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1520" y="890" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t-jFUo6VS6HLVj5Gphrs-116" value="1、alloc_chrdev_region&lt;br&gt;遍历chrdevs全局指针，找一个空间，获得主设备号，alloc一个char_device_struct结构体，赋值设备号以及名字，cdev为空" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="130" y="1505" width="680" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t-jFUo6VS6HLVj5Gphrs-117" value="2、cdev_init&lt;br&gt;初始化cdev结构体，包括kobj初始化，ops赋值，这时候dev还没有" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="130" y="1570" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t-jFUo6VS6HLVj5Gphrs-118" value="3、cdev_add&lt;br&gt;给cdev的dev和count赋值&lt;br&gt;根据相关信息构造对应probe结构体，挂到map中" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="130" y="1620" width="280" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
