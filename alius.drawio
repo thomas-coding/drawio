@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T01:44:55.370Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="KZHPh3J3YlolaBIW77da" version="20.0.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-06-28T01:48:27.707Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="acyv_rVZ7Q0ZVVrf9sBG" version="20.0.3" type="github" pages="11">
   <diagram id="RnFNnHmN_B7JGY2mYCac" name="memory layout">
     <mxGraphModel dx="2177" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3398,8 +3398,8 @@
         <mxCell id="-aF54sYKxaW4b8S6aZwc-32" value="block" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="100" y="1000" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-aF54sYKxaW4b8S6aZwc-33" value="1 block = 512 bytes&lt;br&gt;&amp;nbsp;freertos start :10m = 20480 block =&amp;nbsp; 0x5000 block" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="130" y="1060" width="310" height="40" as="geometry" />
+        <mxCell id="-aF54sYKxaW4b8S6aZwc-33" value="1 block = 512 bytes&lt;br&gt;&amp;nbsp;freertos start :10m = 20480 block =&amp;nbsp; 0x5000 block&lt;br&gt;20M = 40960 blocks = 0xa000 blocks" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="130" y="1050" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-aF54sYKxaW4b8S6aZwc-39" value="10K" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="240" y="915" width="40" height="30" as="geometry" />
