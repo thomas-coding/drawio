@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T01:44:45.493Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="89qtKej3x4YyIgU4NYUw" version="20.0.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-06-28T01:44:55.370Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="KZHPh3J3YlolaBIW77da" version="20.0.3" type="github" pages="11">
   <diagram id="RnFNnHmN_B7JGY2mYCac" name="memory layout">
     <mxGraphModel dx="2177" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3419,7 +3419,7 @@
         <mxCell id="-aF54sYKxaW4b8S6aZwc-44" value="freertos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="690" y="940" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-aF54sYKxaW4b8S6aZwc-45" value="10M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="-aF54sYKxaW4b8S6aZwc-45" value="20M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="655" y="905" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-aF54sYKxaW4b8S6aZwc-46" value="50M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
