@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T01:26:39.905Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="n8YGzeYl1nFU6yZutcO3" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-05T01:30:23.811Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="H3ntw2hdZs9s8vVoazpF" version="20.2.0" type="github">
   <diagram id="SMoDQftgCHazYTA_Q3V3" name="memory">
     <mxGraphModel dx="1350" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,14 +22,14 @@
         <mxCell id="F6iENnoEfVVWvnV-UXQh-6" value="0x001F_FFFF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="120" y="250" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F6iENnoEfVVWvnV-UXQh-7" value="SRAM(264K)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="645" y="90" width="120" height="60" as="geometry" />
+        <mxCell id="F6iENnoEfVVWvnV-UXQh-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="710" width="120" height="130" as="geometry" />
         </mxCell>
         <mxCell id="F6iENnoEfVVWvnV-UXQh-8" value="0x2000_0000" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="540" y="135" width="100" height="30" as="geometry" />
+          <mxGeometry x="160" y="820" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="F6iENnoEfVVWvnV-UXQh-9" value="0x2004_1FFF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="540" y="80" width="100" height="30" as="geometry" />
+          <mxGeometry x="160" y="700" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="F6iENnoEfVVWvnV-UXQh-10" value="USBRAM(3K)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="655" y="245" width="120" height="60" as="geometry" />
@@ -39,6 +39,42 @@
         </mxCell>
         <mxCell id="F6iENnoEfVVWvnV-UXQh-12" value="0x5010_0FFF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="550" y="235" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F6iENnoEfVVWvnV-UXQh-13" value="BOOTROM:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="425" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F6iENnoEfVVWvnV-UXQh-14" value="ROM(16K)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="265" y="475" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F6iENnoEfVVWvnV-UXQh-15" value="0x0000_0000" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="520" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F6iENnoEfVVWvnV-UXQh-16" value="0x0000_3FFF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="465" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F6iENnoEfVVWvnV-UXQh-17" value="USBRAM(3K)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="263" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F6iENnoEfVVWvnV-UXQh-18" value="0x5010_0400" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="158" y="625" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F6iENnoEfVVWvnV-UXQh-19" value="0x5010_0FFF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="158" y="570" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F6iENnoEfVVWvnV-UXQh-20" value=".text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="495" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F6iENnoEfVVWvnV-UXQh-21" value=".data&lt;br&gt;.bss" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="590" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F6iENnoEfVVWvnV-UXQh-22" value="stack" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="745" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F6iENnoEfVVWvnV-UXQh-23" value="stack(256bytes)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="265" y="740" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F6iENnoEfVVWvnV-UXQh-24" value="&lt;span style=&quot;&quot;&gt;SRAM(264K)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="680" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
