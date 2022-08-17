@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T05:17:43.860Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="tWYxIAFZh5VfZtxNQh1Q" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T05:23:03.573Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="13-8ryWNXPuZPHgKdzWY" version="20.2.3" type="github">
   <diagram id="GQ1lfGZLwoXVQpBaQUE6" name="Page-1">
     <mxGraphModel dx="2200" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="e2jKU1gRPfwrZPwswT8l-8" value="DP是 4 bit地址宽度，A[2:3] 代表了地址中的 bit2 bit3, bit0 和 bit1 固定为0， 对应关系&lt;br&gt;&lt;br&gt;bit3 bit2&amp;nbsp; &amp;nbsp;----------------------------- dp reg address&lt;br&gt;&lt;br&gt;0&amp;nbsp; &amp;nbsp;0&amp;nbsp; --------------&amp;nbsp; &amp;nbsp;0x0&lt;br&gt;0&amp;nbsp; &amp;nbsp;1 ---------------&amp;nbsp; &amp;nbsp;0x4&lt;br&gt;1&amp;nbsp; &amp;nbsp;0 ---------------&amp;nbsp; &amp;nbsp;0x8&lt;br&gt;1&amp;nbsp; &amp;nbsp;1 ---------------&amp;nbsp; &amp;nbsp;0xc" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="90" y="530" width="490" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="e2jKU1gRPfwrZPwswT8l-9" value="DPIDR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="e2jKU1gRPfwrZPwswT8l-9" value="DPIDR（R）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="740" y="540" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e2jKU1gRPfwrZPwswT8l-11" value="CTRL/STAT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -48,6 +48,9 @@
         </mxCell>
         <mxCell id="e2jKU1gRPfwrZPwswT8l-21" value="&lt;b&gt;地址对齐情况下，最后几个bit是没有用的，用做 DP bank select，这样4个bit，可以扩展成 16 个bank&lt;br&gt;&lt;br&gt;这种情况下，我们访问DP寄存器，硬件会先读下bank select，确定下是哪个bank， 再根据 A[2:3] 确定是哪个寄存器&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="80" y="920" width="650" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2jKU1gRPfwrZPwswT8l-22" value="ABORT（W）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="860" y="540" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
