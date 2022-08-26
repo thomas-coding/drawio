@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T03:05:23.501Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="rTfvW5gxOfTMromn8YN3" version="20.2.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-26T03:10:37.435Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="3DneryL5oEinBo7bW6Un" version="20.2.5" type="github" pages="2">
   <diagram id="GQ1lfGZLwoXVQpBaQUE6" name="adi">
     <mxGraphModel dx="2200" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -335,8 +335,8 @@
         <mxCell id="0QnpszjyG5h3Udrj2sVy-51" value="0x040000" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1039.47" y="1830" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0QnpszjyG5h3Udrj2sVy-53" value="A系列和M系列不同，有一个完整的debug模块" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="155" y="1940" width="270" height="30" as="geometry" />
+        <mxCell id="0QnpszjyG5h3Udrj2sVy-53" value="A系列和M系列不同，有一个完整的debug模块，以访问core0 debug模块 MIDR 寄存器为例，来说明访问流程：&lt;br&gt;&lt;br&gt;mw 0x00020d04 0x01010d00&lt;br&gt;md 0x00020d0c 1&lt;br&gt;&lt;br&gt;设置LP APBAP的TAR， 指向要访问的A32 DEBUG上的寄存器地址，0x01000000 + 0x010000 + 0x0d00 , 地址空间由 A32 debug offset + core0 debug offset + MIDR reg offset 组成&lt;br&gt;然后通过 LP APBAP 的 DRW 读取即可" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="155" y="1900" width="1000" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
