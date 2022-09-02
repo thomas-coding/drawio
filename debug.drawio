@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T02:25:45.962Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="J9PBiAsuPF6F8UrcN6PY" version="20.2.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-02T02:30:47.133Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="U3UIopd_EiYC8p9W3ZSC" version="20.2.7" type="github" pages="4">
   <diagram id="GQ1lfGZLwoXVQpBaQUE6" name="adi">
     <mxGraphModel dx="2200" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -440,10 +440,49 @@
     </mxGraphModel>
   </diagram>
   <diagram id="orQtvMTSmNTIz7sXNBQY" name="Page-3">
-    <mxGraphModel dx="1588" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="931" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cJbh5oWNDm_UGf9gbvWw-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="280" y="150" width="290" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="cJbh5oWNDm_UGf9gbvWw-2" value="OpenOCD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="425" y="350" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cJbh5oWNDm_UGf9gbvWw-4" value="GDB Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="350" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cJbh5oWNDm_UGf9gbvWw-5" value="Host PC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="520" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJbh5oWNDm_UGf9gbvWw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cJbh5oWNDm_UGf9gbvWw-6" target="cJbh5oWNDm_UGf9gbvWw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cJbh5oWNDm_UGf9gbvWw-6" value="GDB Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJbh5oWNDm_UGf9gbvWw-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cJbh5oWNDm_UGf9gbvWw-10" target="cJbh5oWNDm_UGf9gbvWw-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cJbh5oWNDm_UGf9gbvWw-10" value="USB driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="470" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cJbh5oWNDm_UGf9gbvWw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cJbh5oWNDm_UGf9gbvWw-11" target="cJbh5oWNDm_UGf9gbvWw-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cJbh5oWNDm_UGf9gbvWw-11" value="JLINK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="650" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJbh5oWNDm_UGf9gbvWw-13" value="USB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="455" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cJbh5oWNDm_UGf9gbvWw-14" value="Alius Board" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="860" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cJbh5oWNDm_UGf9gbvWw-16" value="SWD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="795" y="450" width="50" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
