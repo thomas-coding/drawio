@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T02:02:43.247Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="D3ez0g8sBO-ptWOEZEA4" version="20.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-27T02:13:17.586Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="pv3T340OGX_t8k7A5FEp" version="20.4.0" type="github" pages="2">
   <diagram id="wADDxIZ4hSgZw2CtbdWs" name="mcu_boot">
     <mxGraphModel dx="1350" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -117,6 +117,12 @@
         </mxCell>
         <mxCell id="lm6l3eIHGJC54JILPl7p-38" value="32" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="680" y="565" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lm6l3eIHGJC54JILPl7p-40" value="32 bytes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="490" y="345" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lm6l3eIHGJC54JILPl7p-41" value="example for image header:&lt;br&gt;&lt;div&gt;00001000: 3db8 f396 0000 0000 0002 0000 0825 0000&amp;nbsp; =............%..&lt;/div&gt;&lt;div&gt;00001010: 0000 0000 0100 0100 0000 0000 0000 0000&amp;nbsp; ................&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;magic: 0x96f3b8d3&lt;/div&gt;&lt;div&gt;load addr: 0x0&lt;/div&gt;&lt;div&gt;header size: 0x200&lt;/div&gt;&lt;div&gt;protect tlv size: 0x0&lt;/div&gt;&lt;div&gt;image size: 0x00002508 (9480)&lt;/div&gt;&lt;div&gt;flag: 0x0&lt;/div&gt;&lt;div&gt;version: major=0x0 minor=0x1 revision=0x1 build_num=0x0&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="700" width="450" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
