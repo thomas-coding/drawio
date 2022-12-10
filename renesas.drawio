@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-10T08:11:08.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="SS2Y4JABdq3soOWmP8Rk" version="20.6.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-12-10T08:42:30.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="aot0iucPWthvIYd7ZQ0m" version="20.6.0" type="github" pages="3">
   <diagram id="F2TnNj6JPueZ2NRaEE-z" name="memory_layout">
     <mxGraphModel dx="1422" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -130,14 +130,14 @@
         <mxCell id="sabqLoDeH8FBiO3j3_3v-10" value="align:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="45" y="1065" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sabqLoDeH8FBiO3j3_3v-11" value="binary 中内容和flash中内容顺序是一致的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sabqLoDeH8FBiO3j3_3v-11" value="binary 中内容和sram中内容顺序是一致的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="60" y="1550" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sabqLoDeH8FBiO3j3_3v-12" value="&lt;div&gt;Bear&amp;gt; md 0x20200000 10&lt;/div&gt;&lt;div&gt;0x2026f7c0 @ 0x20200000&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="70" y="1620" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sabqLoDeH8FBiO3j3_3v-13" value="但是如果是读4bytes， 则是按小端读取，变成了0x2026f7c0" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="65" y="1690" width="340" height="30" as="geometry" />
+        <mxCell id="sabqLoDeH8FBiO3j3_3v-13" value="但是如果是读4bytes， 则是按小端读取，变成了0x2026f7c0，谁来变的？如果SRAM本身，AHB总线不做处理，那么是core变的？" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="65" y="1690" width="720" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sabqLoDeH8FBiO3j3_3v-14" value="问题：XIP 模式，默认是按照大端读取的，怎么处理？写flash时每4个字节切换下顺序？那两个字节的指令怎么办？" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="70" y="1750" width="630" height="30" as="geometry" />
