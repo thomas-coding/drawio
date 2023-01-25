@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-25T08:22:22.602Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="AGd4UwXCsyOjcaNOPD5K" version="20.8.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-25T08:23:25.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="I4bPEuWHVd57wa7j1cry" version="20.8.5" type="github" pages="4">
   <diagram id="lqjkjy0q_VbGzalwyMzK" name="console">
     <mxGraphModel dx="2074" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -563,6 +563,9 @@
         </mxCell>
         <mxCell id="SNsbmfTxyCe8AkETOST9-47" value="0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="450" y="684.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SNsbmfTxyCe8AkETOST9-51" value="全局变量初始化，4G地址空间，使用LEVEL1的4个条目，base table" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="840" width="390" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
