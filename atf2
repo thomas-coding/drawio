@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T02:08:23.938Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="pUAhLfWCyUWv5ed1tpUJ" version="20.8.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-30T02:14:35.357Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="dKwknA5HQNJTo4evzNqq" version="20.8.3" type="github" pages="5">
   <diagram id="lqjkjy0q_VbGzalwyMzK" name="console">
     <mxGraphModel dx="1362" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -792,6 +792,33 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="W8h3RUk7ReGEsqxkkPX_-1" value="gpregs_ctx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="200" y="210" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="W8h3RUk7ReGEsqxkkPX_-2" value="el3state_ctx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W8h3RUk7ReGEsqxkkPX_-3" value="el1_sysregs_ctx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W8h3RUk7ReGEsqxkkPX_-4" value="CTX_GPREG_X0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W8h3RUk7ReGEsqxkkPX_-5" value="..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W8h3RUk7ReGEsqxkkPX_-6" value="CTX_GPREG_X29" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="270" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W8h3RUk7ReGEsqxkkPX_-7" value="CTX_GPREG_LR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W8h3RUk7ReGEsqxkkPX_-8" value="CTX_GPREG_SP_EL0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="330" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W8h3RUk7ReGEsqxkkPX_-9" value="uint64_t ctx_regs[num_regs];" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="170" width="180" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
