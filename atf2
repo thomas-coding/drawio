@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-28T04:49:28.780Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="gIo4nmiDwzvELpFp3pfz" version="20.8.23" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-02-28T05:23:43.837Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="izBsGyxHmQp3y8CB41oW" version="20.8.23" type="github" pages="13">
   <diagram id="lqjkjy0q_VbGzalwyMzK" name="console">
     <mxGraphModel dx="1362" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -5536,6 +5536,20 @@
         </mxCell>
         <mxCell id="j1lmMZrEEiCslhbXrnnM-307" value="VA-PA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="690" y="5225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j1lmMZrEEiCslhbXrnnM-309" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="j1lmMZrEEiCslhbXrnnM-308" target="j1lmMZrEEiCslhbXrnnM-249">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="5000" />
+              <mxPoint x="750" y="5075" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j1lmMZrEEiCslhbXrnnM-308" value="TTBR1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="622.6400000000001" y="4970.4400000000005" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j1lmMZrEEiCslhbXrnnM-310" value="idmap page table(8K)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="861.9999999999999" y="4961.4400000000005" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
