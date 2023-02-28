@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-28T05:46:54.484Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="kdOs6bbCeks5iC5gyygE" version="20.8.23" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-02-28T05:54:18.195Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="kWB7MC01u9d4-knMaKs1" version="20.8.23" type="github" pages="13">
   <diagram id="lqjkjy0q_VbGzalwyMzK" name="console">
     <mxGraphModel dx="1362" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4772,7 +4772,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YsQU2ZEjMVU1zM5AHx0f-28" value="setup_arch" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="515" y="-112.5" width="190" height="30" as="geometry" />
+          <mxGeometry x="515" y="-87.5" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YsQU2ZEjMVU1zM5AHx0f-30" value="early_fixmap_init" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="765" y="-215" width="190" height="30" as="geometry" />
@@ -4781,7 +4781,7 @@
           <mxGeometry x="764" y="-169" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YsQU2ZEjMVU1zM5AHx0f-32" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="744" y="-215" width="20" height="235" as="geometry" />
+          <mxGeometry x="744" y="-215" width="20" height="285" as="geometry" />
         </mxCell>
         <mxCell id="YsQU2ZEjMVU1zM5AHx0f-36" value="setup PGD/PMD/PTE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="954.86" y="-352" width="140" height="30" as="geometry" />
@@ -5568,6 +5568,9 @@
         </mxCell>
         <mxCell id="j1lmMZrEEiCslhbXrnnM-316" value="can access memory by va" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1309.86" y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j1lmMZrEEiCslhbXrnnM-317" value="bootmem_init" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="765" y="39" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
