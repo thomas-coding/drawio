@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-05T08:54:27.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="DRhyZfPwF3Y_xCv8TD4p" version="21.0.2" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2023-03-05T08:58:06.041Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="N9lNZCCYluoDVKrwnnJX" version="21.0.2" type="github" pages="14">
   <diagram id="lqjkjy0q_VbGzalwyMzK" name="console">
     <mxGraphModel dx="2074" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7319,22 +7319,28 @@
         <mxCell id="P7ny7-BnZNFIf3tb_8aW-26" value="__schedule" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="610.0000000000001" y="2071.5" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P7ny7-BnZNFIf3tb_8aW-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="P7ny7-BnZNFIf3tb_8aW-36" parent="1">
+        <mxCell id="P7ny7-BnZNFIf3tb_8aW-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="P7ny7-BnZNFIf3tb_8aW-36" parent="1" source="P7ny7-BnZNFIf3tb_8aW-26">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="805.0699999999999" y="2086.5" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="P7ny7-BnZNFIf3tb_8aW-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P7ny7-BnZNFIf3tb_8aW-33" target="P7ny7-BnZNFIf3tb_8aW-40">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P7ny7-BnZNFIf3tb_8aW-33" value="pick_next_task" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="862.1799999999998" y="2052.25" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P7ny7-BnZNFIf3tb_8aW-34" value="context_switch" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="862.1799999999998" y="2092.25" width="190" height="30" as="geometry" />
+          <mxGeometry x="862.1799999999998" y="2160" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P7ny7-BnZNFIf3tb_8aW-36" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="840" y="2050.75" width="20" height="71.5" as="geometry" />
+          <mxGeometry x="840" y="2050.75" width="20" height="139.25" as="geometry" />
         </mxCell>
         <mxCell id="P7ny7-BnZNFIf3tb_8aW-38" value="check flag TIF_NEED_RESCHED" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="740" y="2011.5" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P7ny7-BnZNFIf3tb_8aW-40" value="pick_next_task_fair" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="993.1099999999998" y="2101.5" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
