@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T04:55:53.169Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="heCfulOGSGnrMXwELO9z" version="21.0.1" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-03-07T05:41:14.134Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="2L2KpZTKJgJAySapJXwO" version="21.0.1" type="github" pages="15">
   <diagram id="lqjkjy0q_VbGzalwyMzK" name="console">
     <mxGraphModel dx="1362" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1751,7 +1751,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6tmfOrZOEY0Mxzi1oMd-" name="uboot">
-    <mxGraphModel dx="2212" dy="3041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2212" dy="3007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2138,7 +2138,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IsriMr6G-9c22g8FJOPc" name="cache">
-    <mxGraphModel dx="1362" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1362" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2170,7 +2170,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ltCOfq-dYSO_XF5KMczz" name="kernel start">
-    <mxGraphModel dx="1297" dy="1901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1362" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2997,7 +2997,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="M_Y5UOOxgKgvVu6K_xsx" name="secure boot">
-    <mxGraphModel dx="5474" dy="3348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4762" dy="3007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3522,7 +3522,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EXWQFxWlXm_kSTxdS9pF" name="secure debug">
-    <mxGraphModel dx="2074" dy="1148" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1362" dy="807" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3615,7 +3615,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="88qbdypg_EjqW5S9coLu" name="memory">
-    <mxGraphModel dx="2074" dy="3348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1362" dy="3007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7346,7 +7346,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SavzznO61XJ51NfHWjIh" name="filesystem">
-    <mxGraphModel dx="2212" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2147" dy="1869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7632,6 +7632,96 @@
         </mxCell>
         <mxCell id="dT96VQMDuNesxZyz8PVk-48" value="shmem_file_operations" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="615" y="955" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jaXfTkZKCpfgg1aoAXN2-3" target="jaXfTkZKCpfgg1aoAXN2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jaXfTkZKCpfgg1aoAXN2-3" target="jaXfTkZKCpfgg1aoAXN2-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-3" value="start_kernel" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-415" y="-611.5" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jaXfTkZKCpfgg1aoAXN2-5" target="jaXfTkZKCpfgg1aoAXN2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-5" value="vfs_caches_init" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="-810" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jaXfTkZKCpfgg1aoAXN2-12" target="jaXfTkZKCpfgg1aoAXN2-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-12" value="kernel_init" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="-425" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.453;entryY=-0.053;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jaXfTkZKCpfgg1aoAXN2-16" target="jaXfTkZKCpfgg1aoAXN2-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-16" value="mnt_init" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-730" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jaXfTkZKCpfgg1aoAXN2-17" target="jaXfTkZKCpfgg1aoAXN2-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-17" value="kernel_init_freeable" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="-510" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jaXfTkZKCpfgg1aoAXN2-27" target="jaXfTkZKCpfgg1aoAXN2-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-27" value="init_mount_tree" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-670" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-29" value="vfs_kern_mount" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="195" y="-720" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-33" value="mount rootfs and create &quot;/&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205" y="-750" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-34" value="set_fs_pwd" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="195" y="-670" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-36" value="set_fs_root" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="195" y="-620" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-37" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="175" y="-720" width="20" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-39" value="task struct dir set to rootfs &quot;/&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-590" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jaXfTkZKCpfgg1aoAXN2-42" target="jaXfTkZKCpfgg1aoAXN2-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-42" value="populate_rootfs" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="-450" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jaXfTkZKCpfgg1aoAXN2-43" target="jaXfTkZKCpfgg1aoAXN2-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-43" value="do_populate_rootfs" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="167.5" y="-390" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-44" value="unpack_to_rootfs" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="-390" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-49" value="uppack rootfs from cpio to rootfs &quot;/&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="397.5" y="-360" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jaXfTkZKCpfgg1aoAXN2-51" target="jaXfTkZKCpfgg1aoAXN2-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-51" value="run_init_process" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="-330" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-52" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="37.5" y="-510" width="20" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-55" value="kernel_execve" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-330" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jaXfTkZKCpfgg1aoAXN2-57" value="read /init elf and run" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-290" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
