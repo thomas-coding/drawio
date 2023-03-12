@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-12T08:05:50.986Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="e8DVVTWzkypihwANnsnR" version="21.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-12T08:06:25.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="-ZgQYUn6_ZnBDj5raszf" version="21.0.6" type="github" pages="2">
   <diagram name="interrupt" id="X0-J-edH7jgUcz-7wAHY">
     <mxGraphModel dx="3164" dy="2248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1117,6 +1117,18 @@
         </mxCell>
         <mxCell id="Ineb87oboaoHje6BEaDl-71" value="Hardware register" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="640" y="2721.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ineb87oboaoHje6BEaDl-72" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="560" y="2640" as="sourcePoint" />
+            <mxPoint x="630" y="2750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ineb87oboaoHje6BEaDl-73" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="540" y="3210" as="sourcePoint" />
+            <mxPoint x="640" y="3110" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
