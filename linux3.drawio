@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-12T09:34:00.194Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="goM1rnHsDpP_smA40tr2" version="21.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-12T09:40:41.652Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="PZ8A-Dp-G1jdnxqBQiDH" version="21.0.6" type="github" pages="2">
   <diagram name="interrupt" id="X0-J-edH7jgUcz-7wAHY">
     <mxGraphModel dx="3164" dy="2248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -369,7 +369,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="W0sbQL13j6jV9eyfN3pW" name="optee">
-    <mxGraphModel dx="2924" dy="2248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2280" dy="1892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1323,7 +1323,7 @@
         <mxCell id="Ineb87oboaoHje6BEaDl-141" value="opteed_smc_handler" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontStyle=0;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="38.21999999999997" y="677" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ineb87oboaoHje6BEaDl-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#FFD966;" edge="1" parent="1" source="Ineb87oboaoHje6BEaDl-142" target="Ineb87oboaoHje6BEaDl-155">
+        <mxCell id="Ineb87oboaoHje6BEaDl-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#BD7000;fillColor=#f0a30a;" edge="1" parent="1" source="Ineb87oboaoHje6BEaDl-142" target="Ineb87oboaoHje6BEaDl-155">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-30" y="776" />
