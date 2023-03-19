@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-19T02:06:55.852Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="oSHcfIaRODxzZU-Ghg1B" version="21.0.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-19T02:20:23.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="qn8UiWZOKZc2AnY9GxOE" version="21.0.6" type="github" pages="3">
   <diagram name="interrupt" id="X0-J-edH7jgUcz-7wAHY">
     <mxGraphModel dx="2924" dy="2248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1366,7 +1366,7 @@
         <mxCell id="-IEReqIpCmaKSDsRVqmw-1" value="BL1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="90" y="160" width="100" height="810" as="geometry" />
         </mxCell>
-        <mxCell id="-IEReqIpCmaKSDsRVqmw-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="-IEReqIpCmaKSDsRVqmw-1">
+        <mxCell id="-IEReqIpCmaKSDsRVqmw-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="-IEReqIpCmaKSDsRVqmw-1">
           <mxGeometry x="45" y="100" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-IEReqIpCmaKSDsRVqmw-5" value="plat_secondary_cold_boot_setup" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="-IEReqIpCmaKSDsRVqmw-4" parent="-IEReqIpCmaKSDsRVqmw-1">
@@ -1402,6 +1402,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="-IEReqIpCmaKSDsRVqmw-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="-IEReqIpCmaKSDsRVqmw-2">
+          <mxGeometry x="45" y="530" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-IEReqIpCmaKSDsRVqmw-26" value="bl31_warm_entrypoint" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="-IEReqIpCmaKSDsRVqmw-25" parent="-IEReqIpCmaKSDsRVqmw-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="510" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-IEReqIpCmaKSDsRVqmw-3" value="Linux" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="640" y="160" width="100" height="810" as="geometry" />
         </mxCell>
@@ -1413,6 +1424,17 @@
             <mxPoint x="50" y="200" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="80" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-IEReqIpCmaKSDsRVqmw-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="-IEReqIpCmaKSDsRVqmw-3">
+          <mxGeometry x="45" y="650" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-IEReqIpCmaKSDsRVqmw-29" value="secondary_entry" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="-IEReqIpCmaKSDsRVqmw-28" parent="-IEReqIpCmaKSDsRVqmw-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="630" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="660" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1455,6 +1477,12 @@
         </mxCell>
         <mxCell id="-IEReqIpCmaKSDsRVqmw-24" value="ns entry (secondary_entry)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="430" y="500" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-IEReqIpCmaKSDsRVqmw-27" value="eret" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="-IEReqIpCmaKSDsRVqmw-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="410" y="770" as="sourcePoint" />
+            <mxPoint x="490" y="770" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
