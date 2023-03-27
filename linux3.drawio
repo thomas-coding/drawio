@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-20T05:38:36.993Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="BL9WzOwa8H5XgY5OFglI" version="21.0.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-27T03:35:10.655Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="iXdYhv9Wzzt5-jzMXvoh" version="21.0.10" type="github" pages="4">
   <diagram name="interrupt" id="X0-J-edH7jgUcz-7wAHY">
     <mxGraphModel dx="2212" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1486,6 +1486,89 @@
         </mxCell>
         <mxCell id="-IEReqIpCmaKSDsRVqmw-30" value="xxx_pwr_domain_on_finish" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="420" y="700" width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SGCWMVrIyn2nx9bEnMHZ" name="sd">
+    <mxGraphModel dx="1362" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VNYp_q7EOmmc58d2cmX2-1" target="VNYp_q7EOmmc58d2cmX2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-1" value="dwc_mshc" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VNYp_q7EOmmc58d2cmX2-2" target="VNYp_q7EOmmc58d2cmX2-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-2" value="mmc" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VNYp_q7EOmmc58d2cmX2-3" target="VNYp_q7EOmmc58d2cmX2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-3" value="qemu sdhci" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VNYp_q7EOmmc58d2cmX2-4" target="VNYp_q7EOmmc58d2cmX2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-4" value="qemu sd" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-5" value="sd disk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="320" as="sourcePoint" />
+            <mxPoint x="670" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="510" as="sourcePoint" />
+            <mxPoint x="670" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-8" value="guest atf" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="275" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-9" value="host qemu" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="175" y="470" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-10" value="host storage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="173" y="530" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-11" value="sdhci 流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="145" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-12" value="cmd 发送接收" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="245" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="410" as="sourcePoint" />
+            <mxPoint x="820" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-14" value="machine" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="385" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-15" value="card" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="415" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-16" value="主机侧，硬件处理，通过信号线读写数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="355" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-17" value="卡侧，硬件处理，通过信号线读写数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="445" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VNYp_q7EOmmc58d2cmX2-18" value="数据存放位置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="545" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
