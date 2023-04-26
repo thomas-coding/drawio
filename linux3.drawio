@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-26T02:16:24.935Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="s1BSbiaV2X6fc10sQ9L3" version="21.2.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-04-26T02:30:54.463Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="0xn7KxBVME6bnZrZlJ9E" version="21.2.1" type="github" pages="9">
   <diagram name="interrupt" id="X0-J-edH7jgUcz-7wAHY">
     <mxGraphModel dx="2212" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2746,7 +2746,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="amRW4VLiwVgMyNYsgR63" name="ba450">
-    <mxGraphModel dx="1434" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="973" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3003,6 +3003,42 @@
         </mxCell>
         <mxCell id="2u8nyATkJC3VDc6OqPvB-93" value="&lt;div&gt;• “000000001”: ECB mode&lt;/div&gt;&lt;div&gt;• “000000010”: CBC mode&lt;/div&gt;&lt;div&gt;• “000000100”: CTR mode&lt;/div&gt;&lt;div&gt;• “000001000”: CFB mode&lt;/div&gt;&lt;div&gt;• “000010000”: OFB mode&lt;/div&gt;&lt;div&gt;• “000100000”: CCM mode&lt;/div&gt;&lt;div&gt;• “001000000”: GCM/GMAC mode&lt;/div&gt;&lt;div&gt;• “010000000”: XTS mode&lt;/div&gt;&lt;div&gt;• “100000000”: CMAC mode&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1320" y="482" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2u8nyATkJC3VDc6OqPvB-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2u8nyATkJC3VDc6OqPvB-95" target="2u8nyATkJC3VDc6OqPvB-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2u8nyATkJC3VDc6OqPvB-95" value="desc（L）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2u8nyATkJC3VDc6OqPvB-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2u8nyATkJC3VDc6OqPvB-96" target="2u8nyATkJC3VDc6OqPvB-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2u8nyATkJC3VDc6OqPvB-96" value="desc（L）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2u8nyATkJC3VDc6OqPvB-98" value="desc（L）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2u8nyATkJC3VDc6OqPvB-100" value="TAG" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2u8nyATkJC3VDc6OqPvB-101" value="TAG" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2u8nyATkJC3VDc6OqPvB-102" value="TAG" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2u8nyATkJC3VDc6OqPvB-103" value="data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2u8nyATkJC3VDc6OqPvB-104" value="data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2u8nyATkJC3VDc6OqPvB-105" value="data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2u8nyATkJC3VDc6OqPvB-106" value="本质上来说就是TLV结构，其中tag和l 保存在desc中，value是通过地址获取到：&lt;br&gt;Tag：告知data是发送给那个硬件IP的&lt;br&gt;Data：可以是config，也可以是真正的数据，有具体的硬件IP来处理" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1715" width="450" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
