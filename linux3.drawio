@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-21T08:57:28.401Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="TmnXd8bvUPl-HSqD7MuO" version="21.3.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-05-21T09:53:41.814Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="8nMCTEq-OZrQCIdYw3i9" version="21.3.0" type="github" pages="13">
   <diagram name="interrupt" id="X0-J-edH7jgUcz-7wAHY">
     <mxGraphModel dx="2910" dy="2234" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4125,7 +4125,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TARuqoq40xuvTIOeS__5" name="net">
-    <mxGraphModel dx="3274" dy="1334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3793" dy="1620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4252,25 +4252,25 @@
           <mxGeometry x="770" y="413" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SjZw16auVX8hquKuqJ5q-49" value="&lt;div style=&quot;font-size: 20px;&quot;&gt;子网判断：&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;A电脑：192.168.0.1 &amp;amp; 255.255.255.0 = 192.168.0.0&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;B电脑：192.168.0.2 &amp;amp; 255.255.255.0 = 192.168.0.0&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-570" y="575" width="480" height="90" as="geometry" />
+          <mxGeometry x="-775" y="585" width="480" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SjZw16auVX8hquKuqJ5q-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SjZw16auVX8hquKuqJ5q-50" target="SjZw16auVX8hquKuqJ5q-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SjZw16auVX8hquKuqJ5q-50" value="192.168.0.2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="267" width="120" height="30" as="geometry" />
+          <mxGeometry x="-325" y="277" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SjZw16auVX8hquKuqJ5q-51" value="bbbb" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry y="267" width="120" height="30" as="geometry" />
+          <mxGeometry x="-205" y="277" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SjZw16auVX8hquKuqJ5q-54" value="ARP缓存表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-115" y="220" width="120" height="40" as="geometry" />
+          <mxGeometry x="-320" y="230" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SjZw16auVX8hquKuqJ5q-55" value="电脑 A 为了知道电脑 B（192.168.0.2）的 MAC 地址，将会广播一条 arp 请求，&lt;br&gt;B 收到请求后，带上自己的 MAC 地址给 A 一个响应。此时 A 便更新了自己的 arp 表。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-610" y="445" width="780" height="60" as="geometry" />
+          <mxGeometry x="-815" y="455" width="780" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SjZw16auVX8hquKuqJ5q-58" value="&lt;b style=&quot;font-size: 20px;&quot;&gt;A-&amp;gt;C:&lt;br&gt;A发送消息给C，&amp;amp; mask 计算发现C 和自己不在一个子网，那就把包发送给路由器，dst mac为路由器的 ababab&lt;br&gt;交换机收到包后按照mac ababab，发送给路由器1，package1&lt;br&gt;路由器收到package1后，发现里面的dst ip是 192.168.1.1，查看路由表，发现这个ip在端口 1，&lt;br&gt;把这个包的dst mac修改为C的地址，通过端口1发出去，package2&lt;br&gt;C收到了package2&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="1690" width="1020" height="210" as="geometry" />
+        <mxCell id="SjZw16auVX8hquKuqJ5q-58" value="&lt;b style=&quot;font-size: 20px;&quot;&gt;A-&amp;gt;C:&lt;br&gt;A发送消息给C，&amp;amp; mask 计算发现C 和自己不在一个子网，那就把包发送给路由器，dst mac为路由器的 ababab&lt;br&gt;交换机收到包后按照mac ababab，发送给路由器1，package1&lt;br&gt;路由器收到package1后，发现里面的dst ip是 192.168.1.1，查看路由表，发现这个ip在端口 1，&lt;br&gt;把这个包的dst mac修改为C的地址，通过端口1发出去，package2&lt;br&gt;C收到了package2&lt;br&gt;&lt;br&gt;TIP：数据包发送过程中，MAC在不断变化，IP是不变的&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="1648" width="1020" height="210" as="geometry" />
         </mxCell>
         <mxCell id="SjZw16auVX8hquKuqJ5q-59" value="s mac: aaaa&lt;br style=&quot;font-size: 20px;&quot;&gt;dst mac:ababab" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="830" y="1785" width="230" height="60" as="geometry" />
