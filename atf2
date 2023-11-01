@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T03:09:50.112Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="vv37GqW7FfTJ_wb3Dfbo" version="21.3.7" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2023-11-01T05:22:36.335Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="kO6p2jGOLWS6MPCjYpbY" version="22.0.8" type="github" pages="16">
   <diagram id="lqjkjy0q_VbGzalwyMzK" name="console">
-    <mxGraphModel dx="1362" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1362" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2997,7 +2997,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="M_Y5UOOxgKgvVu6K_xsx" name="secure boot">
-    <mxGraphModel dx="4523" dy="2861" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4762" dy="2975" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3051,7 +3051,7 @@
         <mxCell id="vbgGK7L_QbjfhefmadBF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="vbgGK7L_QbjfhefmadBF-17" target="vbgGK7L_QbjfhefmadBF-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x4CXEtXfKCjkKg1s3xWY-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vbgGK7L_QbjfhefmadBF-17" target="x4CXEtXfKCjkKg1s3xWY-2">
+        <mxCell id="x4CXEtXfKCjkKg1s3xWY-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vbgGK7L_QbjfhefmadBF-17" target="x4CXEtXfKCjkKg1s3xWY-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vbgGK7L_QbjfhefmadBF-17" value="Trusted World Public Key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;fontStyle=1" parent="1" vertex="1">
@@ -3315,7 +3315,7 @@
         <mxCell id="vbgGK7L_QbjfhefmadBF-103" value="run" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-2330" y="990" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="vbgGK7L_QbjfhefmadBF-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="vbgGK7L_QbjfhefmadBF-106" edge="1" source="vbgGK7L_QbjfhefmadBF-129">
+        <mxCell id="vbgGK7L_QbjfhefmadBF-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="vbgGK7L_QbjfhefmadBF-129" target="vbgGK7L_QbjfhefmadBF-106" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-2630" y="-1670" as="sourcePoint" />
           </mxGeometry>
@@ -3359,7 +3359,7 @@
         <mxCell id="vbgGK7L_QbjfhefmadBF-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vbgGK7L_QbjfhefmadBF-110" target="vbgGK7L_QbjfhefmadBF-114" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vbgGK7L_QbjfhefmadBF-110" value="soc_fw_key.crt" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" parent="1" vertex="1">
+        <mxCell id="vbgGK7L_QbjfhefmadBF-110" value="soc_fw_content.crt" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" parent="1" vertex="1">
           <mxGeometry x="-2210" y="-1830" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="vbgGK7L_QbjfhefmadBF-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vbgGK7L_QbjfhefmadBF-111" target="vbgGK7L_QbjfhefmadBF-115" edge="1">
@@ -3516,65 +3516,65 @@
         <mxCell id="Oww920dLuNETLKJLQ_f4-34" value="decrypt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-2470" y="1440" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x4CXEtXfKCjkKg1s3xWY-1" value="SoC Firmware Key Certificate" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="x4CXEtXfKCjkKg1s3xWY-1" value="SoC Firmware Key Certificate" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1856" y="-631" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x4CXEtXfKCjkKg1s3xWY-2" value="Trusted world public key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="x4CXEtXfKCjkKg1s3xWY-2" value="Trusted world public key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1871" y="-601" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x4CXEtXfKCjkKg1s3xWY-3" value="Trusted World Non-Volatile counter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="x4CXEtXfKCjkKg1s3xWY-3" value="Trusted World Non-Volatile counter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1871" y="-571" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x4CXEtXfKCjkKg1s3xWY-4" value="sign by Trusted world private&amp;nbsp;key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="x4CXEtXfKCjkKg1s3xWY-4" value="sign by Trusted world private&amp;nbsp;key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1871" y="-511" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x4CXEtXfKCjkKg1s3xWY-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x4CXEtXfKCjkKg1s3xWY-5" target="x4CXEtXfKCjkKg1s3xWY-17">
+        <mxCell id="x4CXEtXfKCjkKg1s3xWY-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="x4CXEtXfKCjkKg1s3xWY-5" target="x4CXEtXfKCjkKg1s3xWY-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x4CXEtXfKCjkKg1s3xWY-5" value="SoC Firmware content certificate public key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="x4CXEtXfKCjkKg1s3xWY-5" value="SoC Firmware content certificate public key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1871" y="-541" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x4CXEtXfKCjkKg1s3xWY-6" value="trusted world key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;align=left;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="x4CXEtXfKCjkKg1s3xWY-6" value="trusted world key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;align=left;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-1861" y="-680" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x4CXEtXfKCjkKg1s3xWY-16" value="SoC Firmware Content Certificate" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="x4CXEtXfKCjkKg1s3xWY-16" value="SoC Firmware Content Certificate" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1435" y="-644" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x4CXEtXfKCjkKg1s3xWY-17" value="Trusted os content publick key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="x4CXEtXfKCjkKg1s3xWY-17" value="Trusted os content publick key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1435" y="-614" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x4CXEtXfKCjkKg1s3xWY-18" value="Trusted World Non-Volatile counter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="x4CXEtXfKCjkKg1s3xWY-18" value="Trusted World Non-Volatile counter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1435" y="-584" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x4CXEtXfKCjkKg1s3xWY-19" value="sign by&amp;nbsp;SoC Firmware Content Certificate key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="x4CXEtXfKCjkKg1s3xWY-19" value="sign by&amp;nbsp;SoC Firmware Content Certificate key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1435" y="-493" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x4CXEtXfKCjkKg1s3xWY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="x4CXEtXfKCjkKg1s3xWY-21" target="x4CXEtXfKCjkKg1s3xWY-25" parent="1">
+        <mxCell id="x4CXEtXfKCjkKg1s3xWY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="x4CXEtXfKCjkKg1s3xWY-21" target="x4CXEtXfKCjkKg1s3xWY-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x4CXEtXfKCjkKg1s3xWY-21" value="SoC AP Firmware hash&amp;nbsp;(SHA256)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="x4CXEtXfKCjkKg1s3xWY-21" value="SoC AP Firmware hash&amp;nbsp;(SHA256)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1435" y="-554" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x4CXEtXfKCjkKg1s3xWY-24" value="SoC Firmware Config hash" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="x4CXEtXfKCjkKg1s3xWY-24" value="SoC Firmware Config hash" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1435" y="-523" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x4CXEtXfKCjkKg1s3xWY-25" value="BL31" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="x4CXEtXfKCjkKg1s3xWY-25" value="BL31" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-1075" y="-579" width="186" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="x4CXEtXfKCjkKg1s3xWY-26" value="trusted os content key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;align=left;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="x4CXEtXfKCjkKg1s3xWY-26" value="trusted os content key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;align=left;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-1435" y="-683" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x4CXEtXfKCjkKg1s3xWY-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x4CXEtXfKCjkKg1s3xWY-30" target="vbgGK7L_QbjfhefmadBF-105">
+        <mxCell id="x4CXEtXfKCjkKg1s3xWY-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="x4CXEtXfKCjkKg1s3xWY-30" target="vbgGK7L_QbjfhefmadBF-105" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x4CXEtXfKCjkKg1s3xWY-30" value="rot key" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="x4CXEtXfKCjkKg1s3xWY-30" value="rot key" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-2730" y="-1930" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="EXWQFxWlXm_kSTxdS9pF" name="secure debug">
-    <mxGraphModel dx="1362" dy="807" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1362" dy="775" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
