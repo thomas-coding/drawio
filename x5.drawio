@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T04:42:05.019Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="ZMBhYauJTPM1z2V4gM9S" version="23.0.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-01-31T04:44:48.888Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="hN-i0dotc-D5_YbD4MKI" version="23.0.2" type="github" pages="5">
   <diagram name="apb_filter" id="58blpnWMgleNtSX3L4EL">
     <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -500,20 +500,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fyDh6nUoOyir6KWa-Rn9" name="sram_for_mpu">
-    <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xV3iyUlYa14yHtQW-LyO-1" value="sram0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xV3iyUlYa14yHtQW-LyO-1" value="sram0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="260" y="110" width="120" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="xV3iyUlYa14yHtQW-LyO-2" value="sram1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xV3iyUlYa14yHtQW-LyO-2" value="sram1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="260" y="220" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="xV3iyUlYa14yHtQW-LyO-3" value="AON-sram" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xV3iyUlYa14yHtQW-LyO-3" value="AON-sram" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="260" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xV3iyUlYa14yHtQW-LyO-4" value="baremetal&lt;br&gt;(0x140000)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xV3iyUlYa14yHtQW-LyO-4" value="baremetal&lt;br&gt;(0x140000)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="380" y="150" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="xV3iyUlYa14yHtQW-LyO-5" value="0x1fe80000" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -530,6 +530,24 @@
         </mxCell>
         <mxCell id="xV3iyUlYa14yHtQW-LyO-9" value="0x1ffe0000" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="515" y="230" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3iyUlYa14yHtQW-LyO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="xV3iyUlYa14yHtQW-LyO-12" target="xV3iyUlYa14yHtQW-LyO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3iyUlYa14yHtQW-LyO-12" value="dsp sram0 mpu test region" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="68" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3iyUlYa14yHtQW-LyO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xV3iyUlYa14yHtQW-LyO-14" target="xV3iyUlYa14yHtQW-LyO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3iyUlYa14yHtQW-LyO-14" value="dsp sram1 mpu test region" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="280" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3iyUlYa14yHtQW-LyO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xV3iyUlYa14yHtQW-LyO-16" target="xV3iyUlYa14yHtQW-LyO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3iyUlYa14yHtQW-LyO-16" value="aon sram mpu test region" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="325" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
