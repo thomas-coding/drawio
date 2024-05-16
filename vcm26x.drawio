@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T07:23:12.356Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="KCL4C4HfHQL1ZN2h1Ub4" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-16T07:45:05.839Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="OYgjTdP-qg2YBQgiR91D" version="24.4.2" type="github">
   <diagram name="Page-1" id="1T8nS3-H_Zj8YaDaIl3L">
     <mxGraphModel dx="1985" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="O9-vtD-8rxhe8wtmSDLd-23" value="mapped" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-23" value="mapped" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="230" y="830" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="O9-vtD-8rxhe8wtmSDLd-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O9-vtD-8rxhe8wtmSDLd-24" target="O9-vtD-8rxhe8wtmSDLd-25">
@@ -260,6 +260,60 @@
         </mxCell>
         <mxCell id="O9-vtD-8rxhe8wtmSDLd-83" value="dma-&amp;gt;dmamem" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="290" y="1790" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-85" value="总结接口函数：&lt;div&gt;vs_map_internal ： 返回 desc 用的内存的物理地址&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="1943" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-86" value="regs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2152" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-87" value="d" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2182" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-88" value="out" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2212" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-89" value="mapped" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2242" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-90" value="&lt;span style=&quot;text-align: left;&quot;&gt;dmamem&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2272" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-91" value="vs_dmactl" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="2120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-92" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: &#39;Droid Sans Mono&#39;, &#39;monospace&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;struct&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;vsdesc&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;char&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;addr;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;struct&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;vsdesc&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;next&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;    u32 sz;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;    u32 dmatag;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;};&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="2152" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-93" value="addr" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="335" y="2172" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-94" value="next" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="335" y="2202" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-95" value="size" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="335" y="2232" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-96" value="dmatag" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="335" y="2262" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-97" value="desc" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2140" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="O9-vtD-8rxhe8wtmSDLd-87" target="O9-vtD-8rxhe8wtmSDLd-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-99" value="vs_dmactl.mapped From dymem[1] PA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="2170" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-100" value="size" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="2228" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-101" value="tag" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="2268" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-102" value="desc++" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="2298" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
