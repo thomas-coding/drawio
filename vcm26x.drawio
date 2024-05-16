@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T07:53:00.056Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="3XKjsirCmhXT3o5saLs9" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-16T08:17:00.285Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="rRobLdK2xvSLGgQKYBKp" version="24.4.2" type="github">
   <diagram name="Page-1" id="1T8nS3-H_Zj8YaDaIl3L">
     <mxGraphModel dx="1985" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -261,8 +261,8 @@
         <mxCell id="O9-vtD-8rxhe8wtmSDLd-83" value="dma-&amp;gt;dmamem" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="290" y="1790" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="O9-vtD-8rxhe8wtmSDLd-85" value="总结接口函数：&lt;div&gt;vs_map_internal ： 返回 desc 用的内存的物理地址&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-175" y="1943" width="290" height="40" as="geometry" />
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-85" value="总结接口函数：&lt;div&gt;vs_map_internal ： 返回 desc 用的内存的物理地址&lt;br&gt;&lt;/div&gt;&lt;div&gt;vs_map_usrdatain ：拷贝数据到DMA 内存范围，返回数据的物理地址&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="1928" width="390" height="70" as="geometry" />
         </mxCell>
         <mxCell id="O9-vtD-8rxhe8wtmSDLd-86" value="regs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="90" y="2152" width="120" height="30" as="geometry" />
@@ -317,6 +317,9 @@
         </mxCell>
         <mxCell id="O9-vtD-8rxhe8wtmSDLd-103" value="cfg context not put to PA memory yet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="290" y="2338" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-104" value="vs_cmdma_newcmd" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="2098" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
