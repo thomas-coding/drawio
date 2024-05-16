@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T07:00:45.650Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="BCsIqt0DsMUYTelM5Y7A" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-16T07:03:51.230Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="_bfW8cNk_oUa7zIeX473" version="24.4.2" type="github">
   <diagram name="Page-1" id="1T8nS3-H_Zj8YaDaIl3L">
     <mxGraphModel dx="1985" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -171,7 +171,7 @@
           <mxGeometry x="400" y="830" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="O9-vtD-8rxhe8wtmSDLd-54" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: &#39;Droid Sans Mono&#39;, &#39;monospace&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;struct&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; vs_regs {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;char&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;devmem;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;size_t&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; descsphys;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;char&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;usrdma;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;};&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="1720" width="210" height="120" as="geometry" />
+          <mxGeometry x="-170" y="1710" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="O9-vtD-8rxhe8wtmSDLd-55" value="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: &#39;Droid Sans Mono&#39;, &#39;monospace&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;struct&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; dyn_mem {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;   &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;char&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;mem;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;   &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;size_t&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; phys;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;   &lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;size_t&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt; size;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;};&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-150" y="1520" width="170" height="120" as="geometry" />
@@ -217,6 +217,12 @@
         </mxCell>
         <mxCell id="O9-vtD-8rxhe8wtmSDLd-73" value="PA from mmap" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="650" y="1574" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O9-vtD-8rxhe8wtmSDLd-74" target="O9-vtD-8rxhe8wtmSDLd-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-74" value="vs_alloc_global_dmamem" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1450" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
