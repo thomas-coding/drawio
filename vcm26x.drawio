@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T09:45:46.233Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="8u-npO5yKqbEFSOicr5p" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-16T09:54:05.607Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="_eLXS4xcI3oANOR2hNaM" version="24.4.2" type="github">
   <diagram name="Page-1" id="1T8nS3-H_Zj8YaDaIl3L">
     <mxGraphModel dx="2212" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -386,6 +386,9 @@
         </mxCell>
         <mxCell id="O9-vtD-8rxhe8wtmSDLd-127" value="注意vshash结构体中dma和descs是连在一起的，两个放到一起其实和上面的硬件DMA region是匹配的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="180" y="580" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O9-vtD-8rxhe8wtmSDLd-128" value="create/feed 填充结构体中in desc，并拷贝input message到DMA buffer[0], digest(produce) 更新in desc的last，以及out desc，start hw中更新next，并map next到DMA buffer[1]的物理地址，然后拷贝结构体中的desc到DMA buffer[1] 中" style="text;whiteSpace=wrap;html=1;align=left;fontStyle=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="2990" width="780" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
