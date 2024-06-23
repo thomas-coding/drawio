@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-23T08:38:37.352Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="u_5zwmvrYLhi7J3MyCSj" version="24.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-23T08:44:39.217Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Za1b79d3VeHCpD04Lb4i" version="24.6.0" type="github" pages="2">
   <diagram name="boot flow" id="sLdjjFRCurw4iOtgUeHd">
     <mxGraphModel dx="2060" dy="1084" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -170,6 +170,9 @@
         </mxCell>
         <mxCell id="53Z6RejS5V_MvpqG3025-8" value="0x38_00f0_0000&amp;nbsp; INIT_RAM for spl" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="510" y="790" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="53Z6RejS5V_MvpqG3025-9" value="&lt;div style=&quot;background-color: rgb(31, 31, 31); line-height: 19px; white-space: pre; font-size: 14px; font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; color: rgb(204, 204, 204);&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;#define&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt; CONFIG_SYS_INIT_SP_ADDR         &lt;/span&gt;&lt;span style=&quot;color: #b5cea8;&quot;&gt;0x3806000000&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="520" width="460" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
