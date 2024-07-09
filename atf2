@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T11:49:07.800Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="--k547_hUK77Li5AmTle" version="24.6.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2024-07-09T08:51:32.235Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="mrmw2BUjBb0XRtNT3rb5" version="24.6.4" type="github" pages="16">
   <diagram id="lqjkjy0q_VbGzalwyMzK" name="console">
     <mxGraphModel dx="1362" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4288,7 +4288,7 @@
         <mxCell id="mwiOMIFEuaUMswexq7-W-25" value="rot-key&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-3810" y="-1770" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mwiOMIFEuaUMswexq7-W-26" value="bl2 rot-key&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="mwiOMIFEuaUMswexq7-W-26" value="spl rot-key&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-3810" y="-1465.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mwiOMIFEuaUMswexq7-W-27" value="trusted-world-key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
