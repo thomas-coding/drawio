@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-18T01:58:29.887Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Tj4WTv9HNaAr2HrNhFrW" version="24.6.5" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2024-07-18T02:34:00.988Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="WORMDjoaAUByXB4Ryq4h" version="24.6.5" type="github" pages="14">
   <diagram id="RnFNnHmN_B7JGY2mYCac" name="memory layout">
     <mxGraphModel dx="2189" dy="1976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1721,7 +1721,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="I0waouarp5wmM6UCQDFx" name="secure boot">
-    <mxGraphModel dx="6605" dy="2987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="1oL2VAdBL8-a7i8Mcr0a-0" />
         <mxCell id="1oL2VAdBL8-a7i8Mcr0a-1" parent="1oL2VAdBL8-a7i8Mcr0a-0" />
