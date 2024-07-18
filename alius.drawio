@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T02:11:39.961Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="GpHOsB--lOkNaZQjm1IX" version="24.6.5" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2024-07-18T01:58:29.887Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Tj4WTv9HNaAr2HrNhFrW" version="24.6.5" type="github" pages="14">
   <diagram id="RnFNnHmN_B7JGY2mYCac" name="memory layout">
     <mxGraphModel dx="2189" dy="1976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1143,7 +1143,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JXDqNfOuJTvDLhS-BZ3p" name="FIP">
-    <mxGraphModel dx="3978" dy="2291" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4711" dy="2810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4FblY8v0FngbuUXKxkMo-0" />
         <mxCell id="4FblY8v0FngbuUXKxkMo-1" parent="4FblY8v0FngbuUXKxkMo-0" />
@@ -1721,7 +1721,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="I0waouarp5wmM6UCQDFx" name="secure boot">
-    <mxGraphModel dx="4443" dy="1842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6605" dy="2987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="1oL2VAdBL8-a7i8Mcr0a-0" />
         <mxCell id="1oL2VAdBL8-a7i8Mcr0a-1" parent="1oL2VAdBL8-a7i8Mcr0a-0" />
@@ -2035,6 +2035,42 @@
         </mxCell>
         <mxCell id="JWVuaVAs1fue95xY9ZQ--38" value="run" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1oL2VAdBL8-a7i8Mcr0a-1" vertex="1">
           <mxGeometry x="-2330" y="990" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b-727hBdGTy5o0u8lBG9-0" value="publick key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontStyle=1" vertex="1" parent="1oL2VAdBL8-a7i8Mcr0a-1">
+          <mxGeometry x="-3170" y="-275" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b-727hBdGTy5o0u8lBG9-1" value="Non-Volatile counter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;fontStyle=1" vertex="1" parent="1oL2VAdBL8-a7i8Mcr0a-1">
+          <mxGeometry x="-3170" y="-245" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b-727hBdGTy5o0u8lBG9-2" value="sign by private key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontStyle=1" vertex="1" parent="1oL2VAdBL8-a7i8Mcr0a-1">
+          <mxGeometry x="-3170" y="-185" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b-727hBdGTy5o0u8lBG9-3" value="Binary hash (SHA256)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;fontStyle=1" vertex="1" parent="1oL2VAdBL8-a7i8Mcr0a-1">
+          <mxGeometry x="-3170" y="-215" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b-727hBdGTy5o0u8lBG9-11" value="publick key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontStyle=1" vertex="1" parent="1oL2VAdBL8-a7i8Mcr0a-1">
+          <mxGeometry x="-3180" y="-640" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b-727hBdGTy5o0u8lBG9-13" value="sign by private key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;fontStyle=1" vertex="1" parent="1oL2VAdBL8-a7i8Mcr0a-1">
+          <mxGeometry x="-3180" y="-550" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b-727hBdGTy5o0u8lBG9-14" value="Next level certificate1 Public Key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;fontStyle=1" vertex="1" parent="1oL2VAdBL8-a7i8Mcr0a-1">
+          <mxGeometry x="-3180" y="-610" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b-727hBdGTy5o0u8lBG9-15" value="Next level certificate(n) Public Key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;fontStyle=1" vertex="1" parent="1oL2VAdBL8-a7i8Mcr0a-1">
+          <mxGeometry x="-3180" y="-580" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b-727hBdGTy5o0u8lBG9-16" value="x509 cert base" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;fontStyle=1" vertex="1" parent="1oL2VAdBL8-a7i8Mcr0a-1">
+          <mxGeometry x="-3180" y="-670" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b-727hBdGTy5o0u8lBG9-17" value="x509 cert base" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;fontStyle=1" vertex="1" parent="1oL2VAdBL8-a7i8Mcr0a-1">
+          <mxGeometry x="-3170" y="-305" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b-727hBdGTy5o0u8lBG9-18" value="密钥证书" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1oL2VAdBL8-a7i8Mcr0a-1">
+          <mxGeometry x="-3180" y="-702" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b-727hBdGTy5o0u8lBG9-19" value="内容证书" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1oL2VAdBL8-a7i8Mcr0a-1">
+          <mxGeometry x="-3170" y="-335" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
