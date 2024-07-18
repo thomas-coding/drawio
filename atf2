@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-18T02:31:40.318Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="mLPV4W5V-kYxJL8U6ajc" version="24.6.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2024-07-18T02:47:49.559Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="UM9MK9JNthlJgKZqXdyn" version="24.6.4" type="github" pages="16">
   <diagram id="lqjkjy0q_VbGzalwyMzK" name="console">
     <mxGraphModel dx="1362" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2997,7 +2997,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="M_Y5UOOxgKgvVu6K_xsx" name="secure boot">
-    <mxGraphModel dx="9600" dy="5072" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6256" dy="3277" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4329,6 +4329,54 @@
         </mxCell>
         <mxCell id="mwiOMIFEuaUMswexq7-W-41" value="root&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
           <mxGeometry x="-4210" y="-1370" width="136" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="De1hnTt54J6oVbBjMLkM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="De1hnTt54J6oVbBjMLkM-1" target="De1hnTt54J6oVbBjMLkM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="De1hnTt54J6oVbBjMLkM-1" value="开始证书验证" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-3860" y="-1100" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="De1hnTt54J6oVbBjMLkM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="De1hnTt54J6oVbBjMLkM-2" target="De1hnTt54J6oVbBjMLkM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="De1hnTt54J6oVbBjMLkM-2" value="证书扩展字段中&lt;div&gt;公钥或者hash&lt;/div&gt;&lt;div&gt;有效，可用于&lt;/div&gt;&lt;div&gt;验证下一级&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-3860" y="-600" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="De1hnTt54J6oVbBjMLkM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="De1hnTt54J6oVbBjMLkM-3" target="De1hnTt54J6oVbBjMLkM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="De1hnTt54J6oVbBjMLkM-3" value="自签名证书&lt;div&gt;自身验证&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-3860" y="-930" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="De1hnTt54J6oVbBjMLkM-5" value="失败" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-3590" y="-430" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="De1hnTt54J6oVbBjMLkM-6" value="成功" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-3860" y="-430" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="De1hnTt54J6oVbBjMLkM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="De1hnTt54J6oVbBjMLkM-8" target="De1hnTt54J6oVbBjMLkM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="De1hnTt54J6oVbBjMLkM-8" value="公钥和上一&lt;div&gt;级&lt;span style=&quot;background-color: initial;&quot;&gt;证书中公钥(hash)比对&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-3860" y="-760" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="De1hnTt54J6oVbBjMLkM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="De1hnTt54J6oVbBjMLkM-8" target="De1hnTt54J6oVbBjMLkM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="De1hnTt54J6oVbBjMLkM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="De1hnTt54J6oVbBjMLkM-3" target="De1hnTt54J6oVbBjMLkM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="De1hnTt54J6oVbBjMLkM-14" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3760" y="-912" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="De1hnTt54J6oVbBjMLkM-15" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3810" y="-810" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="De1hnTt54J6oVbBjMLkM-16" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3760" y="-740" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="De1hnTt54J6oVbBjMLkM-17" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3810" y="-650" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
