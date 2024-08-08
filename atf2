@@ -5091,6 +5091,12 @@
         <mxCell id="oSWVYCSuiqu7TaSSRm0S-34" value="total = 148 - 14 + 24 + 8 + 8*8 = 230K" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-3600" y="3080" width="220" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="oSWVYCSuiqu7TaSSRm0S-35" value="240K" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3810" y="3010" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oSWVYCSuiqu7TaSSRm0S-36" value="244K" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3460" y="3000" width="50" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
