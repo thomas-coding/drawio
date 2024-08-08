@@ -3310,7 +3310,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="M_Y5UOOxgKgvVu6K_xsx" name="secure boot">
-    <mxGraphModel dx="6228" dy="3291" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5614" dy="2952" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5005,7 +5005,7 @@
           <mxGeometry x="-3760" y="2540" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="oSWVYCSuiqu7TaSSRm0S-2" value="V1.3&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-3745" y="2498" width="50" height="30" as="geometry" />
+          <mxGeometry x="-3730" y="2510" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oSWVYCSuiqu7TaSSRm0S-3" value="0x00000" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-3840" y="2530" width="70" height="30" as="geometry" />
@@ -5035,7 +5035,7 @@
           <mxGeometry x="-3590" y="2542" width="120" height="158" as="geometry" />
         </mxCell>
         <mxCell id="oSWVYCSuiqu7TaSSRm0S-12" value="V1.5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-3575" y="2500" width="50" height="30" as="geometry" />
+          <mxGeometry x="-3550" y="2510" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oSWVYCSuiqu7TaSSRm0S-13" value="0x00000" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-3460" y="2530" width="70" height="30" as="geometry" />
