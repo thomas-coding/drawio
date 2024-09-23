@@ -9855,10 +9855,13 @@
           <mxGeometry x="2682.5" y="600" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bb0YXh3CNxGx6IPgGb4z-72" value="SE generate random&lt;div&gt;RSA1 sign random with cmd&lt;/div&gt;&lt;div&gt;SE verify random and cmd, process cmd&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2980" y="641" width="240" height="60" as="geometry" />
+          <mxGeometry x="2990" y="920" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Bb0YXh3CNxGx6IPgGb4z-73" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; 11. 数据验签接口&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (1) 功能：SE用RSA1-SERVER公钥对数据进行验签&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (2) SE接收：签名+数据&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (3) SE执行：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ① SE使用RSA1-SERVER公钥对签名和数据进行验签&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (4) SE回复：成功+原始数据+RSA2私钥签名 或 失败+错误码&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2405" y="783" width="370" height="100" as="geometry" />
+          <mxGeometry x="2150" y="780" width="370" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Bb0YXh3CNxGx6IPgGb4z-74" value="1. SE 对MCU的身份认证，需保证RSA2(pub)是安全的（一般public key认为是公开的）&lt;div&gt;2. SE 对MCU 目标码验证成功后，告诉MCU，MCU需要是可信的的，这步才会有意义&lt;/div&gt;&lt;div&gt;3. SE和MCU之前通信使用AES加密，防止中间人攻击&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;BTW. 数据验签接口是否需要防重放攻击？&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2820" y="740" width="480" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
