@@ -560,6 +560,12 @@
         <mxCell id="1dLdQnEdALakzgPOTY0N-9" value="uart driver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="580" y="480" width="90" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="1dLdQnEdALakzgPOTY0N-16" value="1312       0       0    1312     520 cmdma.o (ex libvssymcrypt.a)&#xa;3372       0       0    3372     d2c blkcipher.o (ex libvssymcrypt.a)&#xa;2816       0       0    2816     b00 shash.o (ex libvssymcrypt.a)&#xa;244       0       0     244      f4 cmmask.o (ex libvssymcrypt.a)&#xa;3416       0       0    3416     d58 sm4.o (ex libvssymcrypt.a)&#xa;320       0       0     320     140 interrupts.o (ex libvssymcrypt.a)&#xa;2435       8       0    2443     98b trng.o (ex libvssymcrypt.a)&#xa;2758      56     280    3094     c16 lnxqemudmem.o (ex libvssymcrypt.a)&#xa;16673" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="930" width="410" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="1dLdQnEdALakzgPOTY0N-17" value="basic system + common driver：&lt;div&gt;cmd process（spi 协议）：&lt;/div&gt;&lt;div&gt;mbedtls common：&lt;/div&gt;&lt;div&gt;vcm26x sym：&lt;/div&gt;&lt;div&gt;vcm26x asym：&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="690" width="200" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
